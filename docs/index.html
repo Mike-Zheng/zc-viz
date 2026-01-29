@@ -79,66 +79,30 @@
     <meta property="og:image:height" content="768" />
     <meta property="og:image:alt" content="zc-viz interior design" />
 
-    <!-- 優化字體載入 - preconnect + selective loading -->
+    <!-- 優化字體載入 - preconnect + preload -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- 只預載關鍵字重，減少 CSS 文件大小 -->
+    <!-- 預載字體CSS，避免阻塞渲染 -->
     <link
       rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@300;400;500;700&display=swap"
       as="style"
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <!-- Fallback for browsers that don't support preload -->
     <noscript>
       <link
-        href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@300;400;500;700&display=swap"
         rel="stylesheet"
       />
     </noscript>
 
-    <!-- 延遲載入額外字重 -->
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@300;700&display=swap"
-      as="style"
-      media="print"
-      onload="this.media='all'"
-    />
-
     <!-- Font display swap fallback -->
     <style>
-      /* 關鍵 CSS 內聯 - 避免渲染阻塞 */
-
-      /* 重置和基礎樣式 */
-      * {
-        box-sizing: border-box;
-      }
-
-      html {
-        height: 100%;
-      }
-
+      /* 提供字體載入期間的fallback */
       body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
         font-family: 'Chiron GoRound TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-        background-color: #fff;
-        overflow: hidden;
-      }
-
-      /* 應用容器 */
-      #app {
-        width: 100%;
-        height: 100%;
-      }
-
-      main {
-        width: 100%;
-        height: 100%;
-        outline: none;
       }
     </style>
 
@@ -387,15 +351,9 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="/zc-viz/js/index.CfeZKQB9.js"></script>
-    <link rel="modulepreload" crossorigin href="/zc-viz/js/rolldown-runtime.D38359zp.js">
-    <link rel="modulepreload" crossorigin href="/zc-viz/js/viewer-store.CUP2hFhC.js">
-    <link rel="modulepreload" crossorigin href="/zc-viz/js/gsap.B5dvMTuI.js">
-    <link rel="modulepreload" crossorigin href="/zc-viz/js/three.9hcq4f_j.js">
-    <link rel="modulepreload" crossorigin href="/zc-viz/js/vue-vendor.040fbysP.js">
-    <link rel="stylesheet" crossorigin href="/zc-viz/assets/vue-vendor-SHhjnfE8.css">
-    <link rel="stylesheet" crossorigin href="/zc-viz/assets/index-XJH2OhNo.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@400;500&amp;display=swap" as="style">
+    <script type="module" crossorigin src="/zc-viz/js/index.BKJeC8g9.js"></script>
+    <link rel="stylesheet" crossorigin href="/zc-viz/assets/index-EgLVOU9s.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@300;400;500;700&amp;display=swap" as="style">
   </head>
   <body>
     <!-- Skip to main content link -->
@@ -592,10 +550,5 @@
         }
       }, 300);
     </script>
-
-    <!-- 資源提示 - 預載關鍵資源 -->
-    <link rel="modulepreload" href="data:text/javascript;base64,aW1wb3J0IHsgY3JlYXRlQXBwIH0gZnJvbSAndnVlJwppbXBvcnQgeyBjcmVhdGVQaW5pYSB9IGZyb20gJ3BpbmlhJwppbXBvcnQgQXBwIGZyb20gJy4vQXBwLnZ1ZScKaW1wb3J0IGkxOG4gZnJvbSAnLi9sb2NhbGVzL2kxOG4uanMnCgppbXBvcnQgc3ZnSWNvbiBmcm9tICdAL2NvbXBvbmVudHMvU3ZnSWNvbi9pbmRleC52dWUnCmltcG9ydCAndmlydHVhbDpzdmctaWNvbnMtcmVnaXN0ZXInCmltcG9ydCAnbm9ybWFsaXplLmNzcy9ub3JtYWxpemUuY3NzJwppbXBvcnQgJ0Avc3R5bGVzL2luZGV4LnNjc3MnCgpjb25zdCBhcHAgPSBjcmVhdGVBcHAoQXBwKQoKLy8g5pu05pawIERPTSBzcGxhc2ggc2NyZWVuIOmAsuW6pgppZiAod2luZG93LnNwbGFzaENvbnRyb2xsZXIpIHsKICB3aW5kb3cuc3BsYXNoQ29udHJvbGxlci51cGRhdGVQcm9ncmVzcyg4LCAxMCwgJ+ato+WcqOWIneWni+WMluaHieeUqC4uLicpCn0KCmNvbnN0IHBpbmlhID0gY3JlYXRlUGluaWEoKQphcHAudXNlKGkxOG4pLnVzZShwaW5pYSkuY29tcG9uZW50KCdzdmctaWNvbicsIHN2Z0ljb24pCgovLyDmjpvovInmh4nnlKjkuKblnKjlrozmiJDlvozmm7TmlrDpgLLluqYKYXBwLm1vdW50KCcjYXBwJykKCi8vIFZ1ZSDmh4nnlKjmjpvovInlrozmiJDvvIzmm7TmlrDpgLLluqYKaWYgKHdpbmRvdy5zcGxhc2hDb250cm9sbGVyKSB7CiAgd2luZG93LnNwbGFzaENvbnRyb2xsZXIudXBkYXRlUHJvZ3Jlc3MoMTAsIDEwLCAn6LyJ5YWl5a6M5oiQJykKCiAgLy8g57Wm5LiA6bue5pmC6ZaT6K6T5L2/55So6ICF55yL5Yiw5a6M5oiQ54uA5oWLCiAgc2V0VGltZW91dCgoKSA9PiB7CiAgICAvLyDmqqLmn6XmmK/lkKbpgoTmnInlhbbku5bovInlhaXkuK3nmoTmk43kvZzvvIzlpoLmnpzmspLmnInlsLHpmrHol48gc3BsYXNoIHNjcmVlbgogICAgaW1wb3J0KCdAL3N0b3Jlcy92aWV3ZXJTdG9yZScpLnRoZW4oKHsgdXNlVmlld2VyU3RvcmUgfSkgPT4gewogICAgICBjb25zdCBzdG9yZSA9IHVzZVZpZXdlclN0b3JlKCkKICAgICAgaWYgKCFzdG9yZS5pc0xvYWRpbmcpIHsKICAgICAgICB3aW5kb3cuc3BsYXNoQ29udHJvbGxlci5oaWRlKCkKICAgICAgfQogICAgfSkKICB9LCAyMDApCn0K" />
-    <link rel="prefetch" href="/zc-viz/assets/viewerStore-DJX_wT2f.js" />
-
   </body>
 </html>
