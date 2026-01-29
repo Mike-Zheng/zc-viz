@@ -54,9 +54,12 @@
 
     <meta charset="UTF-8" />
     <link rel="icon" href="/zc-viz/favicon.ico" />
+    <!-- 無障礙 meta 標籤 -->
+    <meta name="theme-color" content="#0E62CC">
+    <meta name="color-scheme" content="light">
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      content="width=device-width, initial-scale=1.0"
     />
     <title>zc-viz</title>
     <meta name="description" content="zc-viz interior design" />
@@ -76,12 +79,68 @@
     <meta property="og:image:height" content="768" />
     <meta property="og:image:alt" content="zc-viz interior design" />
 
+    <!-- 優化字體載入 - preconnect + selective loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- 只預載關鍵字重，減少 CSS 文件大小 -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@400;500&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <!-- Fallback for browsers that don't support preload -->
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@400;500&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- 延遲載入額外字重 -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@300;700&display=swap"
+      as="style"
+      media="print"
+      onload="this.media='all'"
+    />
+
+    <!-- Font display swap fallback -->
+    <style>
+      /* 關鍵 CSS 內聯 - 避免渲染阻塞 */
+
+      /* 重置和基礎樣式 */
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Chiron GoRound TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        background-color: #fff;
+        overflow: hidden;
+      }
+
+      /* 應用容器 */
+      #app {
+        width: 100%;
+        height: 100%;
+      }
+
+      main {
+        width: 100%;
+        height: 100%;
+        outline: none;
+      }
+    </style>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0Q7SESTV9"></script>
@@ -94,10 +153,449 @@
 
       gtag('config', 'G-E0Q7SESTV9')
     </script>
-    <script type="module" crossorigin src="/zc-viz/js/index.BAwJBNkJ.js"></script>
-    <link rel="stylesheet" crossorigin href="/zc-viz/assets/index-CawQDYvf.css">
+    <style>
+      /* 無障礙改進 */
+
+      /* Skip Link - 跳到主內容 */
+      .skip-link {
+        position: absolute;
+        top: -40px;
+        left: 6px;
+        background: #0E62CC;
+        color: white;
+        padding: 8px;
+        z-index: 100000;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: 600;
+        transition: top 0.3s;
+      }
+
+      .skip-link:focus {
+        top: 6px;
+        outline: 3px solid #fff;
+        outline-offset: 2px;
+      }
+
+      /* 動畫減少偏好設定 */
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+
+        .splash-logo #line {
+          animation: none !important;
+        }
+
+        .progress-fill {
+          transition: none !important;
+        }
+      }
+
+      /* 高對比度模式支持 */
+      @media (prefers-contrast: high) {
+        .splash-screen {
+          background-color: #000;
+          color: #fff;
+        }
+
+        .progress-bar {
+          background-color: #333;
+          border: 2px solid #fff;
+        }
+
+        .progress-fill {
+          background: #fff !important;
+        }
+
+        .progress-text,
+        .progress-details {
+          color: #fff !important;
+        }
+      }
+
+      /* 焦點指示器增強 */
+      *:focus {
+        outline: 3px solid #0E62CC;
+        outline-offset: 2px;
+      }
+
+      /* Splash Screen Styles */
+      .splash-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        will-change: opacity;
+        transform: translateZ(0);
+        backface-visibility: hidden;
+      }
+
+      .splash-screen.hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .splash-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        max-width: 90vw;
+      }
+
+      .splash-logo {
+        overflow: visible;
+        will-change: transform;
+        transform: translateZ(0);
+      }
+
+      .splash-logo svg {
+        overflow: visible;
+        transform: translateZ(0);
+        max-width: 100%;
+        height: auto;
+      }
+
+      .splash-logo #line {
+        will-change: stroke-dashoffset;
+        animation: draw 3s linear infinite;
+      }
+
+      @keyframes draw {
+        0% { stroke-dashoffset: 0; }
+        25% { stroke-dashoffset: 450; }
+        50% { stroke-dashoffset: 900; }
+        75% { stroke-dashoffset: 450; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      .progress-container {
+        width: 100%;
+        max-width: 300px;
+        min-width: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 50px;
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 4px;
+        background-color: #e0e0e0;
+        border-radius: 2px;
+        overflow: hidden;
+      }
+
+      .progress-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #0E62CC, #0cccff);
+        transition: width 0.3s ease;
+        border-radius: 2px;
+        width: 0%;
+      }
+
+      .progress-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 14px;
+        color: #424242;
+        font-family: 'Chiron GoRound TC', sans-serif;
+      }
+
+      .progress-message {
+        font-weight: 500;
+      }
+
+      .progress-percentage {
+        font-weight: 600;
+        color: #0E62CC;
+      }
+
+      .progress-details {
+        text-align: center;
+        font-size: 12px;
+        color: #757575;
+        font-family: 'Chiron GoRound TC', sans-serif;
+      }
+
+      /* 隱藏進度條直到有數據 */
+      .progress-container.hidden {
+        display: none;
+      }
+
+      /* 螢幕閱讀器專用內容 */
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      /* 響應式設計 */
+      @media (max-width: 480px) {
+        .splash-content {
+          gap: 1.5rem;
+          padding: 1rem;
+        }
+
+        .splash-logo svg {
+          width: 100px;
+          height: auto;
+        }
+
+        .progress-container {
+          min-width: 200px;
+        }
+
+        .progress-text {
+          font-size: 12px !important;
+        }
+
+        .progress-details {
+          font-size: 10px !important;
+        }
+      }
+
+      @media (max-height: 600px) {
+        .splash-content {
+          gap: 1rem;
+        }
+
+        .splash-logo svg {
+          width: 80px;
+          height: auto;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/zc-viz/js/index.CfeZKQB9.js"></script>
+    <link rel="modulepreload" crossorigin href="/zc-viz/js/rolldown-runtime.D38359zp.js">
+    <link rel="modulepreload" crossorigin href="/zc-viz/js/viewer-store.CUP2hFhC.js">
+    <link rel="modulepreload" crossorigin href="/zc-viz/js/gsap.B5dvMTuI.js">
+    <link rel="modulepreload" crossorigin href="/zc-viz/js/three.9hcq4f_j.js">
+    <link rel="modulepreload" crossorigin href="/zc-viz/js/vue-vendor.040fbysP.js">
+    <link rel="stylesheet" crossorigin href="/zc-viz/assets/vue-vendor-SHhjnfE8.css">
+    <link rel="stylesheet" crossorigin href="/zc-viz/assets/index-XJH2OhNo.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@400;500&amp;display=swap" as="style">
   </head>
   <body>
-    <div id="app"></div>
+    <!-- Skip to main content link -->
+    <a href="#main-content" class="skip-link">跳到主要內容</a>
+
+    <!-- Splash Screen -->
+    <div
+      id="splash-screen"
+      class="splash-screen"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="loading-title"
+      aria-describedby="loading-description"
+      aria-live="polite"
+      aria-busy="true"
+    >
+      <div class="splash-content">
+        <!-- 隱藏的標題，為螢幕閱讀器提供更好的上下文 -->
+        <h1 id="loading-title" class="sr-only">ZC-VIZ 正在載入中</h1>
+        <p id="loading-description" class="sr-only">請稍等，應用程式正在準備中。載入完成後將自動進入主畫面。</p>
+
+        <div class="splash-logo" aria-label="ZC-VIZ 標誌" role="img">
+          <svg
+            width="134.5"
+            height="150.5"
+            viewBox="0 0 134.5 150.5"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <g>
+              <path
+                id="line"
+                d="M 45.0959,138.578 C 30.9419,130.506 16.906,122.496 2.86183,114.5 0.950272,113.411 -0.00242615,111.873 0,109.623 0.0247498,86.6605 0.0169678,63.6977 0.00527954,40.7348 0.00415039,38.5051 1.02734,36.9364 2.91634,35.856 20.0058,26.082 37.0961,16.3096 54.183,6.53127 57.3897,4.6962 60.6114,2.88464 63.7714,0.971863 c 2.2164,-1.34166 4.2893,-1.255615 6.501,0.020111 C 90.2158,12.4958 110.161,23.997 130.152,35.4183 c 2.675,1.5287 3.896,3.4914 3.847,6.5851 -0.123,7.5716 -0.047,15.1464 -0.059,22.7199 -0.004,3.0123 -1.839,5.0448 -4.525,5.0388 -2.665,-0.0061 -4.35,-1.8998 -4.363,-4.9498 -0.016,-3.443 -0.004,-6.886 -0.004,-10.7368 -1.636,0.903 -2.995,1.6202 -4.321,2.3936 -1.828,1.0655 -4.308,1.7749 -5.252,3.3757 -0.939,1.5935 -0.381,4.1002 -0.384,6.2067 -0.021,14.9651 -0.017,29.9303 -0.02,44.8955 -0.001,0.663 0,1.326 0,2.358 0.776,-0.379 1.346,-0.618 1.876,-0.924 2.257,-1.302 4.475,-2.674 6.764,-3.914 1.057,-0.572 1.407,-1.293 1.38,-2.468 -0.07,-3.027 -0.022,-6.0581 -0.004,-9.0874 0.017,-2.9563 1.753,-4.8495 4.448,-4.8786 2.548,-0.0275 4.383,1.903 4.404,4.739 0.031,4.301 -0.013,8.603 0.008,12.905 0.009,2.08 -0.884,3.59 -2.678,4.612 -5.949,3.387 -11.88,6.809 -17.849,10.163 -3.617,2.034 -7.178,-0.011 -7.183,-4.136 -0.029,-20.7821 -0.011,-41.5638 -0.04,-62.3455 -0.004,-2.5092 1.075,-4.2531 3.227,-5.4628 4.751,-2.672 9.488,-5.3708 14.217,-8.0825 0.553,-0.317 1.02,-0.7835 1.526,-1.1807 -0.495,-0.4736 -0.918,-1.0715 -1.495,-1.4027 C 106.819,32.1656 89.9517,22.5156 73.0854,12.863 71.9307,12.2021 70.651,11.6972 69.6367,10.8671 67.8104,9.3725 66.3063,9.64229 64.3227,10.7884 46.3815,21.1547 28.3763,31.4105 10.368,41.6606 9.23555,42.3051 8.7686,43.0008 8.7717,44.3502 8.81874,64.8288 8.82138,85.3076 8.7668,105.786 c -0.0038,1.426 0.48039,2.156 1.6688,2.835 17.4653,9.978 34.8947,20.02 52.3719,29.977 1.5167,0.864 2.1544,1.792 2.035,3.554 -0.1675,2.471 -0.0423,4.962 -0.0423,7.848 -6.6869,-3.876 -13.1378,-7.616 -19.7043,-11.422 z"
+                fill="none"
+                stroke="#0E62CC"
+                stroke-width="4"
+                stroke-dasharray="900"
+                stroke-dashoffset="900"
+              />
+              <path
+                d="m 83.48,97.3812 c 2.4863,-7.7946 4.9198,-15.4549 7.5219,-23.6459 -3.1996,1.803 -5.9118,3.3173 -8.6096,4.8571 -1.4656,0.8365 -2.89719,1.7336 -4.36121,2.5729 -2.51489,1.4419 -5.19463,0.8767 -6.4779,-1.3417 -1.316243,-2.2753 -0.57927,-4.8791 1.95729,-6.3595 7.49972,-4.37707 15.02652,-8.70703 22.55832,-13.027675 1.7093,-0.98053 3.4697,-1.034347 5.0754,0.245468 1.7148,1.366807 2.1116,3.185757 1.4707,5.236867 -2.4965,7.98864 -5.004,15.97384 -7.523,23.95534 -4.3088,13.6522 -8.6299,27.3006 -12.9421,40.9517 -0.1416,0.4481 -0.2429,0.909 -0.4806,1.8098 0.9725,-0.5146 1.6306,-0.8327 2.2599,-1.2008 3.7996,-2.2224 7.5933,-4.4552 11.3878,-6.6865 2.7789,-1.6342 5.2945,-1.2619 6.6584,0.989 1.3293,2.1936 0.4224,5.0881 -2.2037,6.6426 -9.7043,5.7445 -19.431,11.4505 -29.153031,17.1644 -0.138672,0.0815 -0.325851,0.079 -0.714569,0.1657 0.232773,-4.7141 -0.241669,-9.2828 1.29434,-13.8782 4.24939,-12.7132 8.17513,-25.5365 12.28166,-38.4506 z"
+                fill="none"
+                stroke="#0E62CC"
+                stroke-width="4"
+              />
+            </g>
+          </svg>
+        </div>
+
+        <!-- 進度條 -->
+        <div
+          id="progress-container"
+          class="progress-container hidden"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+          aria-labelledby="progress-label"
+          aria-describedby="progress-status"
+        >
+          <div id="progress-label" class="sr-only">載入進度</div>
+          <div class="progress-bar">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+          <div class="progress-text">
+            <span id="progress-message" class="progress-message" aria-live="polite">載入中...</span>
+            <span id="progress-percentage" class="progress-percentage" aria-live="polite">0%</span>
+          </div>
+          <div id="progress-details" class="progress-details" aria-live="polite">0 / 0</div>
+          <div id="progress-status" class="sr-only" aria-live="assertive">載入進度更新</div>
+        </div>
+      </div>
+    </div>
+
+    <main id="main-content" aria-label="ZC-VIZ 主應用程式">
+      <div id="app"></div>
+    </main>
+
+    <script>
+      // Splash Screen Controller
+      window.splashController = {
+        splashElement: null,
+        progressContainer: null,
+        progressFill: null,
+        progressMessage: null,
+        progressPercentage: null,
+        progressDetails: null,
+
+        init() {
+          this.splashElement = document.getElementById('splash-screen');
+          this.progressContainer = document.getElementById('progress-container');
+          this.progressFill = document.getElementById('progress-fill');
+          this.progressMessage = document.getElementById('progress-message');
+          this.progressPercentage = document.getElementById('progress-percentage');
+          this.progressDetails = document.getElementById('progress-details');
+        },
+
+        updateProgress(current, total, message = '載入中...') {
+          if (!this.progressContainer) return;
+
+          if (total > 0) {
+            this.progressContainer.classList.remove('hidden');
+            const percentage = Math.round((current / total) * 100);
+
+            this.progressFill.style.width = percentage + '%';
+            this.progressMessage.textContent = message;
+            this.progressPercentage.textContent = percentage + '%';
+            this.progressDetails.textContent = `${current} / ${total}`;
+
+            // Update aria attributes
+            this.progressContainer.setAttribute('aria-valuenow', percentage);
+            this.progressContainer.setAttribute('aria-label', `載入進度: ${percentage}%`);
+
+            // 更新螢幕閱讀器狀態
+            const statusElement = document.getElementById('progress-status');
+            if (statusElement) {
+              statusElement.textContent = `${message} ${percentage}% 完成，${current} 項目，共 ${total} 項目`;
+            }
+
+            // 播放載入完成的音效提示（可選）
+            if (percentage === 100) {
+              this.announceCompletion();
+            }
+          }
+        },
+
+        announceCompletion() {
+          const statusElement = document.getElementById('progress-status');
+          if (statusElement) {
+            statusElement.textContent = '載入完成！即將進入應用程式主畫面。';
+          }
+        },
+
+        hide() {
+          if (this.splashElement) {
+            // 通知螢幕閱讀器載入完成
+            this.splashElement.setAttribute('aria-busy', 'false');
+            this.splashElement.setAttribute('aria-hidden', 'true');
+
+            // 移除 dialog 角色和 modal 屬性
+            this.splashElement.removeAttribute('role');
+            this.splashElement.removeAttribute('aria-modal');
+
+            this.splashElement.classList.add('hidden');
+
+            setTimeout(() => {
+              if (this.splashElement && this.splashElement.parentNode) {
+                this.splashElement.parentNode.removeChild(this.splashElement);
+
+                // 將焦點移到主內容
+                const mainContent = document.getElementById('main-content');
+                if (mainContent) {
+                  mainContent.focus();
+                }
+              }
+            }, 500); // 等待動畫完成
+          }
+        }
+      };
+
+      // 初始化
+      document.addEventListener('DOMContentLoaded', () => {
+        window.splashController.init();
+      });
+
+      // 預設顯示一些進度，讓使用者知道應用正在載入
+      setTimeout(() => {
+        if (window.splashController.progressContainer) {
+          window.splashController.updateProgress(1, 10, '正在載入應用...');
+        }
+      }, 50);
+
+      // 模擬早期載入進度
+      let earlyProgress = 1;
+      const earlyInterval = setInterval(() => {
+        earlyProgress += 1;
+        if (earlyProgress <= 6) {
+          const messages = [
+            '正在載入核心模組...',
+            '正在初始化渲染器...',
+            '正在載入資源...',
+            '正在準備場景...',
+            '正在載入材質...',
+            '正在設定燈光...'
+          ];
+          window.splashController.updateProgress(
+            earlyProgress,
+            10,
+            messages[earlyProgress - 1] || '正在載入...'
+          );
+        } else {
+          clearInterval(earlyInterval);
+        }
+      }, 300);
+    </script>
+
+    <!-- 資源提示 - 預載關鍵資源 -->
+    <link rel="modulepreload" href="data:text/javascript;base64,aW1wb3J0IHsgY3JlYXRlQXBwIH0gZnJvbSAndnVlJwppbXBvcnQgeyBjcmVhdGVQaW5pYSB9IGZyb20gJ3BpbmlhJwppbXBvcnQgQXBwIGZyb20gJy4vQXBwLnZ1ZScKaW1wb3J0IGkxOG4gZnJvbSAnLi9sb2NhbGVzL2kxOG4uanMnCgppbXBvcnQgc3ZnSWNvbiBmcm9tICdAL2NvbXBvbmVudHMvU3ZnSWNvbi9pbmRleC52dWUnCmltcG9ydCAndmlydHVhbDpzdmctaWNvbnMtcmVnaXN0ZXInCmltcG9ydCAnbm9ybWFsaXplLmNzcy9ub3JtYWxpemUuY3NzJwppbXBvcnQgJ0Avc3R5bGVzL2luZGV4LnNjc3MnCgpjb25zdCBhcHAgPSBjcmVhdGVBcHAoQXBwKQoKLy8g5pu05pawIERPTSBzcGxhc2ggc2NyZWVuIOmAsuW6pgppZiAod2luZG93LnNwbGFzaENvbnRyb2xsZXIpIHsKICB3aW5kb3cuc3BsYXNoQ29udHJvbGxlci51cGRhdGVQcm9ncmVzcyg4LCAxMCwgJ+ato+WcqOWIneWni+WMluaHieeUqC4uLicpCn0KCmNvbnN0IHBpbmlhID0gY3JlYXRlUGluaWEoKQphcHAudXNlKGkxOG4pLnVzZShwaW5pYSkuY29tcG9uZW50KCdzdmctaWNvbicsIHN2Z0ljb24pCgovLyDmjpvovInmh4nnlKjkuKblnKjlrozmiJDlvozmm7TmlrDpgLLluqYKYXBwLm1vdW50KCcjYXBwJykKCi8vIFZ1ZSDmh4nnlKjmjpvovInlrozmiJDvvIzmm7TmlrDpgLLluqYKaWYgKHdpbmRvdy5zcGxhc2hDb250cm9sbGVyKSB7CiAgd2luZG93LnNwbGFzaENvbnRyb2xsZXIudXBkYXRlUHJvZ3Jlc3MoMTAsIDEwLCAn6LyJ5YWl5a6M5oiQJykKCiAgLy8g57Wm5LiA6bue5pmC6ZaT6K6T5L2/55So6ICF55yL5Yiw5a6M5oiQ54uA5oWLCiAgc2V0VGltZW91dCgoKSA9PiB7CiAgICAvLyDmqqLmn6XmmK/lkKbpgoTmnInlhbbku5bovInlhaXkuK3nmoTmk43kvZzvvIzlpoLmnpzmspLmnInlsLHpmrHol48gc3BsYXNoIHNjcmVlbgogICAgaW1wb3J0KCdAL3N0b3Jlcy92aWV3ZXJTdG9yZScpLnRoZW4oKHsgdXNlVmlld2VyU3RvcmUgfSkgPT4gewogICAgICBjb25zdCBzdG9yZSA9IHVzZVZpZXdlclN0b3JlKCkKICAgICAgaWYgKCFzdG9yZS5pc0xvYWRpbmcpIHsKICAgICAgICB3aW5kb3cuc3BsYXNoQ29udHJvbGxlci5oaWRlKCkKICAgICAgfQogICAgfSkKICB9LCAyMDApCn0K" />
+    <link rel="prefetch" href="/zc-viz/assets/viewerStore-DJX_wT2f.js" />
+
   </body>
 </html>
