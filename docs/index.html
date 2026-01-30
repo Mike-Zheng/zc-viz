@@ -55,12 +55,9 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="/zc-viz/favicon.ico" />
     <!-- 無障礙 meta 標籤 -->
-    <meta name="theme-color" content="#0E62CC">
-    <meta name="color-scheme" content="light">
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="theme-color" content="#0E62CC" />
+    <meta name="color-scheme" content="light" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>zc-viz</title>
     <meta name="description" content="zc-viz interior design" />
 
@@ -102,7 +99,15 @@
     <style>
       /* 提供字體載入期間的fallback */
       body {
-        font-family: 'Chiron GoRound TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-family:
+          'Chiron GoRound TC',
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          'Helvetica Neue',
+          Arial,
+          sans-serif;
       }
     </style>
 
@@ -125,7 +130,7 @@
         position: absolute;
         top: -40px;
         left: 6px;
-        background: #0E62CC;
+        background: #0e62cc;
         color: white;
         padding: 8px;
         z-index: 100000;
@@ -139,25 +144,6 @@
         top: 6px;
         outline: 3px solid #fff;
         outline-offset: 2px;
-      }
-
-      /* 動畫減少偏好設定 */
-      @media (prefers-reduced-motion: reduce) {
-        *,
-        *::before,
-        *::after {
-          animation-duration: 0.01ms !important;
-          animation-iteration-count: 1 !important;
-          transition-duration: 0.01ms !important;
-        }
-
-        .splash-logo #line {
-          animation: none !important;
-        }
-
-        .progress-fill {
-          transition: none !important;
-        }
       }
 
       /* 高對比度模式支持 */
@@ -184,7 +170,7 @@
 
       /* 焦點指示器增強 */
       *:focus {
-        outline: 3px solid #0E62CC;
+        outline: 3px solid #0e62cc;
         outline-offset: 2px;
       }
 
@@ -239,11 +225,21 @@
       }
 
       @keyframes draw {
-        0% { stroke-dashoffset: 0; }
-        25% { stroke-dashoffset: 450; }
-        50% { stroke-dashoffset: 900; }
-        75% { stroke-dashoffset: 450; }
-        100% { stroke-dashoffset: 0; }
+        0% {
+          stroke-dashoffset: 0;
+        }
+        25% {
+          stroke-dashoffset: 450;
+        }
+        50% {
+          stroke-dashoffset: 900;
+        }
+        75% {
+          stroke-dashoffset: 450;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
       }
 
       .progress-container {
@@ -266,7 +262,7 @@
 
       .progress-fill {
         height: 100%;
-        background: linear-gradient(90deg, #0E62CC, #0cccff);
+        background: linear-gradient(90deg, #0e62cc, #0cccff);
         transition: width 0.3s ease;
         border-radius: 2px;
         width: 0%;
@@ -287,7 +283,7 @@
 
       .progress-percentage {
         font-weight: 600;
-        color: #0E62CC;
+        color: #0e62cc;
       }
 
       .progress-details {
@@ -351,8 +347,8 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="/zc-viz/js/index.CIBQDpo4.js"></script>
-    <link rel="stylesheet" crossorigin href="/zc-viz/assets/index-Deql5rDR.css">
+    <script type="module" crossorigin src="/zc-viz/js/index.DQBo10Pf.js"></script>
+    <link rel="stylesheet" crossorigin href="/zc-viz/assets/index-_yNtBNZz.css">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@300;400;500;700&amp;display=swap" as="style">
   </head>
   <body>
@@ -373,7 +369,9 @@
       <div class="splash-content">
         <!-- 隱藏的標題，為螢幕閱讀器提供更好的上下文 -->
         <h1 id="loading-title" class="sr-only">ZC-VIZ 正在載入中</h1>
-        <p id="loading-description" class="sr-only">請稍等，應用程式正在準備中。載入完成後將自動進入主畫面。</p>
+        <p id="loading-description" class="sr-only">
+          請稍等，應用程式正在準備中。載入完成後將自動進入主畫面。
+        </p>
 
         <div class="splash-logo" aria-label="ZC-VIZ 標誌" role="img">
           <svg
@@ -429,7 +427,7 @@
       </div>
     </div>
 
-    <main id="main-content" aria-label="ZC-VIZ 主應用程式">
+    <main id="main-content" aria-label="ZC-VIZ">
       <div id="app"></div>
     </main>
 
@@ -444,93 +442,93 @@
         progressDetails: null,
 
         init() {
-          this.splashElement = document.getElementById('splash-screen');
-          this.progressContainer = document.getElementById('progress-container');
-          this.progressFill = document.getElementById('progress-fill');
-          this.progressMessage = document.getElementById('progress-message');
-          this.progressPercentage = document.getElementById('progress-percentage');
-          this.progressDetails = document.getElementById('progress-details');
+          this.splashElement = document.getElementById('splash-screen')
+          this.progressContainer = document.getElementById('progress-container')
+          this.progressFill = document.getElementById('progress-fill')
+          this.progressMessage = document.getElementById('progress-message')
+          this.progressPercentage = document.getElementById('progress-percentage')
+          this.progressDetails = document.getElementById('progress-details')
         },
 
         updateProgress(current, total, message = '載入中...') {
-          if (!this.progressContainer) return;
+          if (!this.progressContainer) return
 
           if (total > 0) {
-            this.progressContainer.classList.remove('hidden');
-            const percentage = Math.round((current / total) * 100);
+            this.progressContainer.classList.remove('hidden')
+            const percentage = Math.round((current / total) * 100)
 
-            this.progressFill.style.width = percentage + '%';
-            this.progressMessage.textContent = message;
-            this.progressPercentage.textContent = percentage + '%';
-            this.progressDetails.textContent = `${current} / ${total}`;
+            this.progressFill.style.width = percentage + '%'
+            this.progressMessage.textContent = message
+            this.progressPercentage.textContent = percentage + '%'
+            this.progressDetails.textContent = `${current} / ${total}`
 
             // Update aria attributes
-            this.progressContainer.setAttribute('aria-valuenow', percentage);
-            this.progressContainer.setAttribute('aria-label', `載入進度: ${percentage}%`);
+            this.progressContainer.setAttribute('aria-valuenow', percentage)
+            this.progressContainer.setAttribute('aria-label', `載入進度: ${percentage}%`)
 
             // 更新螢幕閱讀器狀態
-            const statusElement = document.getElementById('progress-status');
+            const statusElement = document.getElementById('progress-status')
             if (statusElement) {
-              statusElement.textContent = `${message} ${percentage}% 完成，${current} 項目，共 ${total} 項目`;
+              statusElement.textContent = `${message} ${percentage}% 完成，${current} 項目，共 ${total} 項目`
             }
 
             // 播放載入完成的音效提示（可選）
             if (percentage === 100) {
-              this.announceCompletion();
+              this.announceCompletion()
             }
           }
         },
 
         announceCompletion() {
-          const statusElement = document.getElementById('progress-status');
+          const statusElement = document.getElementById('progress-status')
           if (statusElement) {
-            statusElement.textContent = '載入完成！即將進入應用程式主畫面。';
+            statusElement.textContent = '載入完成！即將進入應用程式主畫面。'
           }
         },
 
         hide() {
           if (this.splashElement) {
             // 通知螢幕閱讀器載入完成
-            this.splashElement.setAttribute('aria-busy', 'false');
-            this.splashElement.setAttribute('aria-hidden', 'true');
+            this.splashElement.setAttribute('aria-busy', 'false')
+            this.splashElement.setAttribute('aria-hidden', 'true')
 
             // 移除 dialog 角色和 modal 屬性
-            this.splashElement.removeAttribute('role');
-            this.splashElement.removeAttribute('aria-modal');
+            this.splashElement.removeAttribute('role')
+            this.splashElement.removeAttribute('aria-modal')
 
-            this.splashElement.classList.add('hidden');
+            this.splashElement.classList.add('hidden')
 
             setTimeout(() => {
               if (this.splashElement && this.splashElement.parentNode) {
-                this.splashElement.parentNode.removeChild(this.splashElement);
+                this.splashElement.parentNode.removeChild(this.splashElement)
 
                 // 將焦點移到主內容
-                const mainContent = document.getElementById('main-content');
+                const mainContent = document.getElementById('main-content')
                 if (mainContent) {
-                  mainContent.focus();
+                  mainContent.focus()
                 }
               }
-            }, 500); // 等待動畫完成
+            }, 500) // 等待動畫完成
           }
-        }
-      };
+        },
+      }
 
       // 初始化
       document.addEventListener('DOMContentLoaded', () => {
-        window.splashController.init();
-      });
+        window.splashController.init()
+      })
 
       // 預設顯示一些進度，讓使用者知道應用正在載入
       setTimeout(() => {
         if (window.splashController.progressContainer) {
-          window.splashController.updateProgress(1, 10, '正在載入應用...');
+          window.splashController.updateProgress(1, 10, '正在載入應用...')
         }
-      }, 50);
+      }, 50)
 
       // 模擬早期載入進度
-      let earlyProgress = 1;
+      let earlyProgress = 1
       const earlyInterval = setInterval(() => {
-        earlyProgress += 1;
+        earlyProgress += 1
         if (earlyProgress <= 6) {
           const messages = [
             '正在載入核心模組...',
@@ -538,17 +536,17 @@
             '正在載入資源...',
             '正在準備場景...',
             '正在載入材質...',
-            '正在設定燈光...'
-          ];
+            '正在設定燈光...',
+          ]
           window.splashController.updateProgress(
             earlyProgress,
             10,
-            messages[earlyProgress - 1] || '正在載入...'
-          );
+            messages[earlyProgress - 1] || '正在載入...',
+          )
         } else {
-          clearInterval(earlyInterval);
+          clearInterval(earlyInterval)
         }
-      }, 300);
+      }, 300)
     </script>
   </body>
 </html>
