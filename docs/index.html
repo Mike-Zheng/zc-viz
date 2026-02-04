@@ -58,6 +58,16 @@
     <meta name="theme-color" content="#0E62CC" />
     <meta name="color-scheme" content="light" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Critical Performance Optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+
+    <!-- Three.js CDN -->
+
+
     <title>zc-viz</title>
     <meta name="description" content="zc-viz interior design" />
 
@@ -76,15 +86,7 @@
     <meta property="og:image:height" content="768" />
     <meta property="og:image:alt" content="zc-viz interior design" />
 
-    <!-- DNS 預解析優化 -->
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-
-    <!-- 優化字體載入 - preconnect + preload -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
+    <!-- 優化字體載入 - 使用 font-display: swap 減少 CLS -->
     <link
       rel="preload"
       href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@400;700&display=swap"
@@ -99,7 +101,7 @@
       />
     </noscript>
 
-    <!-- Font display swap fallback -->
+    <!-- Critical CSS - 減少 CLS 和提升 FCP -->
     <style>
       /* 提供字體載入期間的fallback */
       body {
@@ -112,12 +114,27 @@
           'Helvetica Neue',
           Arial,
           sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      #app {
+        width: 100vw;
+        height: 100vh;
+      }
+
+      /* 防止載入時的 Layout Shift */
+      .viewer {
+        width: 100%;
+        height: 100%;
+        position: relative;
       }
     </style>
 
     <!-- Google tag (gtag.js) - 延遲載入以減少 TBT -->
     <script>
-      // 延遲載入 Google Analytics 直到頁面互動後
+      // 延遲載入 Google Analytics 直到頁面完全載入後
       window.dataLayer = window.dataLayer || []
       function gtag() {
         dataLayer.push(arguments)
@@ -125,7 +142,7 @@
       gtag('js', new Date())
       gtag('config', 'G-E0Q7SESTV9')
 
-      // 在 requestIdleCallback 或 3 秒後載入 gtag.js
+      // 在 load 事件後的 idle callback 載入 gtag.js
       function loadGtag() {
         const script = document.createElement('script')
         script.src = 'https://www.googletagmanager.com/gtag/js?id=G-E0Q7SESTV9'
@@ -133,11 +150,13 @@
         document.head.appendChild(script)
       }
 
-      if ('requestIdleCallback' in window) {
-        requestIdleCallback(loadGtag, { timeout: 3000 })
-      } else {
-        setTimeout(loadGtag, 3000)
-      }
+      window.addEventListener('load', () => {
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(loadGtag, { timeout: 5000 })
+        } else {
+          setTimeout(loadGtag, 5000)
+        }
+      })
     </script>
     <style>
       /* 無障礙改進 */
@@ -364,12 +383,20 @@
         }
       }
     </style>
-    <script type="module" crossorigin src="/zc-viz/js/index.CPkgvUyc.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.179.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.179.0/examples/jsm/",
+          "three/examples/jsm/": "https://cdn.jsdelivr.net/npm/three@0.179.0/examples/jsm/",
+          "three/examples/jsm/libs/lil-gui.module.min.js": "https://cdn.jsdelivr.net/npm/three@0.179.0/examples/jsm/libs/lil-gui.module.min.js"
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/zc-viz/js/index.C1Y730vd.js"></script>
     <link rel="modulepreload" crossorigin href="/zc-viz/js/rolldown-runtime.D38359zp.js">
     <link rel="modulepreload" crossorigin href="/zc-viz/js/vendor-libs.Bes0EDwf.js">
     <link rel="modulepreload" crossorigin href="/zc-viz/js/vendor-vue.faPP7Rzv.js">
-    <link rel="modulepreload" crossorigin href="/zc-viz/js/vendor-three.D2qooFjX.js">
-    <link rel="modulepreload" crossorigin href="/zc-viz/js/vendor-three-addons.p9zk1Lbl.js">
     <link rel="stylesheet" crossorigin href="/zc-viz/assets/vendor-libs-BFZ0M9hf.css">
     <link rel="stylesheet" crossorigin href="/zc-viz/assets/index-DVg3fPRs.css">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@400;700&amp;display=swap" as="style">
@@ -536,17 +563,21 @@
         },
       }
 
-      // 初始化
-      document.addEventListener('DOMContentLoaded', () => {
-        window.splashController.init()
-      })
+      // 初始化 - 使用 requestAnimationFrame 來優化性能
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+          requestAnimationFrame(() => window.splashController.init())
+        })
+      } else {
+        requestAnimationFrame(() => window.splashController.init())
+      }
 
       // 預設顯示一些進度，讓使用者知道應用正在載入
-      setTimeout(() => {
+      requestAnimationFrame(() => {
         if (window.splashController.progressContainer) {
           window.splashController.updateProgress(1, 10, '正在載入應用...')
         }
-      }, 50)
+      })
 
       // 模擬早期載入進度
       let earlyProgress = 1
