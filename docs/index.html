@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="zh-TW">
   <head>
-    <link rel="preload" href="/zc-viz/home.min.glb" as="fetch" crossorigin="anonymous">
-    <link rel="preload" href="/zc-viz/home.min.png" as="image">
+    <link rel="prefetch" href="/zc-viz/home.min.glb" as="fetch" crossorigin="anonymous">
 
     <meta charset="UTF-8" />
     <link rel="icon" href="/zc-viz/favicon.ico" />
@@ -14,7 +13,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="/zc-viz/icons/apple-touch-icon-76x76.png" />
     <link rel="apple-touch-icon" sizes="60x60" href="/zc-viz/icons/apple-touch-icon-60x60.png" />
     <link rel="apple-touch-icon" href="/zc-viz/icons/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="zc-viz" />
 
@@ -138,10 +137,32 @@
         setTimeout(tryLoadGA, 3000) // 頁面載入後 3 秒
       })
 
-      // 使用者互動時也觸發載入
-      ['mousedown', 'touchstart', 'keydown', 'scroll'].forEach(event => {
-        document.addEventListener(event, tryLoadGA, { once: true, passive: true })
-      })
+      // 使用者互動時也觸發載入 - scroll 綁定到 window，並檢測 passive 支援
+      ;(function () {
+        // 檢測是否支援 passive 選項
+        let passiveSupported = false
+        try {
+          const options = Object.defineProperty({}, 'passive', {
+            get() {
+              passiveSupported = true
+            },
+          })
+          window.addEventListener('testPassive', null, options)
+          window.removeEventListener('testPassive', null, options)
+        } catch (e) {
+          passiveSupported = false
+        }
+
+        const opts = passiveSupported ? { once: true, passive: true } : { once: true }
+
+        // document 事件
+        ;['mousedown', 'touchstart', 'keydown'].forEach(event => {
+          document.addEventListener(event, tryLoadGA, opts)
+        })
+
+        // window 事件 (scroll 必須綁在 window 上)
+        window.addEventListener('scroll', tryLoadGA, opts)
+      })()
     </script>
     <style>
       /* 無障礙改進 */
