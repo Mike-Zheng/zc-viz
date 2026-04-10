@@ -1,0 +1,960 @@
+[
+  {
+    "name": "APP",
+    "children": [
+      {
+        "name": "$Stove_Sakura",
+        "path": "APP/$Stove_Sakura",
+        "extras": {
+          "key": "APP/$Stove_Sakura",
+          "label": "$Stove_Sakura",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Air_Conditioner_Room_A",
+        "path": "APP/$Air_Conditioner_Room_A",
+        "extras": {
+          "key": "APP/$Air_Conditioner_Room_A",
+          "label": "$Air_Conditioner_Room_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$TV",
+        "path": "APP/$TV",
+        "extras": {
+          "key": "APP/$TV",
+          "label": "$TV",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Steam_Oven_Panasonic_NU-SC100",
+        "path": "APP/$Steam_Oven_Panasonic_NU-SC100",
+        "extras": {
+          "key": "APP/$Steam_Oven_Panasonic_NU-SC100",
+          "label": "$Steam_Oven_Panasonic_NU-SC100",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Air_Conditioner_Room_B",
+        "path": "APP/$Air_Conditioner_Room_B",
+        "extras": {
+          "key": "APP/$Air_Conditioner_Room_B",
+          "label": "$Air_Conditioner_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Microwave_Panasonic_NN-ST34NB",
+        "path": "APP/$Microwave_Panasonic_NN-ST34NB",
+        "extras": {
+          "key": "APP/$Microwave_Panasonic_NN-ST34NB",
+          "label": "$Microwave_Panasonic_NN-ST34NB",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Air_Conditioner_Living_Room",
+        "path": "APP/$Air_Conditioner_Living_Room",
+        "extras": {
+          "key": "APP/$Air_Conditioner_Living_Room",
+          "label": "$Air_Conditioner_Living_Room",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Refrigerator_Hitachi",
+        "path": "APP/$Refrigerator_Hitachi",
+        "extras": {
+          "key": "APP/$Refrigerator_Hitachi",
+          "label": "$Refrigerator_Hitachi",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Exhaust_Hood",
+        "path": "APP/$Exhaust_Hood",
+        "extras": {
+          "key": "APP/$Exhaust_Hood",
+          "label": "$Exhaust_Hood",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Washer_Dryer_Whirlpool_A",
+        "path": "APP/$Washer_Dryer_Whirlpool_A",
+        "extras": {
+          "key": "APP/$Washer_Dryer_Whirlpool_A",
+          "label": "$Washer_Dryer_Whirlpool_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Washer_Dryer_Whirlpool_B",
+        "path": "APP/$Washer_Dryer_Whirlpool_B",
+        "extras": {
+          "key": "APP/$Washer_Dryer_Whirlpool_B",
+          "label": "$Washer_Dryer_Whirlpool_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Air_Conditioner_Room_C",
+        "path": "APP/$Air_Conditioner_Room_C",
+        "extras": {
+          "key": "APP/$Air_Conditioner_Room_C",
+          "label": "$Air_Conditioner_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Water_Dispenser",
+        "path": "APP/$Water_Dispenser",
+        "extras": {
+          "key": "APP/$Water_Dispenser",
+          "label": "$Water_Dispenser",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Dishwasher_BOTCH",
+        "path": "APP/$Dishwasher_BOTCH",
+        "extras": {
+          "key": "APP/$Dishwasher_BOTCH",
+          "label": "$Dishwasher_BOTCH",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Steam_Closet_LG",
+        "path": "APP/$Steam_Closet_LG",
+        "extras": {
+          "key": "APP/$Steam_Closet_LG",
+          "label": "$Steam_Closet_LG",
+          "isVizObj": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "CAB",
+    "children": [
+      {
+        "name": "$Cabinet_Kitchen_1",
+        "path": "CAB/$Cabinet_Kitchen_1",
+        "extras": {
+          "key": "CAB/$Cabinet_Kitchen_1",
+          "label": "$Cabinet_Kitchen_1",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Room_A_1",
+        "path": "CAB/$Cabinet_Room_A_1",
+        "extras": {
+          "key": "CAB/$Cabinet_Room_A_1",
+          "label": "$Cabinet_Room_A_1",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Balcony",
+        "path": "CAB/$Cabinet_Balcony",
+        "extras": {
+          "key": "CAB/$Cabinet_Balcony",
+          "label": "$Cabinet_Balcony",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Room_A_2",
+        "path": "CAB/$Cabinet_Room_A_2",
+        "extras": {
+          "key": "CAB/$Cabinet_Room_A_2",
+          "label": "$Cabinet_Room_A_2",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Room_C",
+        "path": "CAB/$Cabinet_Room_C",
+        "extras": {
+          "key": "CAB/$Cabinet_Room_C",
+          "label": "$Cabinet_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Kitchen_3",
+        "path": "CAB/$Cabinet_Kitchen_3",
+        "extras": {
+          "key": "CAB/$Cabinet_Kitchen_3",
+          "label": "$Cabinet_Kitchen_3",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Bathroom_A",
+        "path": "CAB/$Cabinet_Bathroom_A",
+        "extras": {
+          "key": "CAB/$Cabinet_Bathroom_A",
+          "label": "$Cabinet_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Outer",
+        "path": "CAB/$Cabinet_Outer",
+        "extras": {
+          "key": "CAB/$Cabinet_Outer",
+          "label": "$Cabinet_Outer",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Kitchen_2",
+        "path": "CAB/$Cabinet_Kitchen_2",
+        "extras": {
+          "key": "CAB/$Cabinet_Kitchen_2",
+          "label": "$Cabinet_Kitchen_2",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Room_B_2",
+        "path": "CAB/$Cabinet_Room_B_2",
+        "extras": {
+          "key": "CAB/$Cabinet_Room_B_2",
+          "label": "$Cabinet_Room_B_2",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_TV",
+        "path": "CAB/$Cabinet_TV",
+        "extras": {
+          "key": "CAB/$Cabinet_TV",
+          "label": "$Cabinet_TV",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Room_B_1",
+        "path": "CAB/$Cabinet_Room_B_1",
+        "extras": {
+          "key": "CAB/$Cabinet_Room_B_1",
+          "label": "$Cabinet_Room_B_1",
+          "isVizObj": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "CEIL",
+    "children": [
+      {
+        "name": "$Heater-Fan_Delta_VHB30ACMRT-V110",
+        "path": "CEIL/$Heater-Fan_Delta_VHB30ACMRT-V110",
+        "extras": {
+          "key": "CEIL/$Heater-Fan_Delta_VHB30ACMRT-V110",
+          "label": "$Heater-Fan_Delta_VHB30ACMRT-V110",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Lighting",
+        "path": "CEIL/$Lighting",
+        "extras": {
+          "key": "CEIL/$Lighting",
+          "label": "$Lighting",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Fan_Panasonic_V-21CV2R",
+        "path": "CEIL/$Fan_Panasonic_V-21CV2R",
+        "extras": {
+          "key": "CEIL/$Fan_Panasonic_V-21CV2R",
+          "label": "$Fan_Panasonic_V-21CV2R",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Ceil_Wooden_Deco",
+        "path": "CEIL/$Ceil_Wooden_Deco",
+        "extras": {
+          "key": "CEIL/$Ceil_Wooden_Deco",
+          "label": "$Ceil_Wooden_Deco",
+          "isVizObj": true,
+          "isSolidWall": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "FLOOR",
+    "children": [
+      {
+        "name": "$Sill_Bathroom_B",
+        "path": "FLOOR/$Sill_Bathroom_B",
+        "extras": {
+          "key": "FLOOR/$Sill_Bathroom_B",
+          "label": "$Sill_Bathroom_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Sill_Bathroom_A",
+        "path": "FLOOR/$Sill_Bathroom_A",
+        "extras": {
+          "key": "FLOOR/$Sill_Bathroom_A",
+          "label": "$Sill_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Sill_Kitchen",
+        "path": "FLOOR/$Sill_Kitchen",
+        "extras": {
+          "key": "FLOOR/$Sill_Kitchen",
+          "label": "$Sill_Kitchen",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Floor_Bathroom_B",
+        "path": "FLOOR/$Floor_Bathroom_B",
+        "extras": {
+          "key": "FLOOR/$Floor_Bathroom_B",
+          "label": "$Floor_Bathroom_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Floor_Bathroom_A",
+        "path": "FLOOR/$Floor_Bathroom_A",
+        "extras": {
+          "key": "FLOOR/$Floor_Bathroom_A",
+          "label": "$Floor_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Floor_Kitchen",
+        "path": "FLOOR/$Floor_Kitchen",
+        "extras": {
+          "key": "FLOOR/$Floor_Kitchen",
+          "label": "$Floor_Kitchen",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Floor_Laminate_Main",
+        "path": "FLOOR/$Floor_Laminate_Main",
+        "extras": {
+          "key": "FLOOR/$Floor_Laminate_Main",
+          "label": "$Floor_Laminate_Main",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Stone_Bathroom_A",
+        "path": "FLOOR/$Stone_Bathroom_A",
+        "extras": {
+          "key": "FLOOR/$Stone_Bathroom_A",
+          "label": "$Stone_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Floor_Outer",
+        "path": "FLOOR/$Floor_Outer",
+        "extras": {
+          "key": "FLOOR/$Floor_Outer",
+          "label": "$Floor_Outer",
+          "isVizObj": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "FURN",
+    "children": [
+      {
+        "name": "$Desk_Room_A",
+        "path": "FURN/$Desk_Room_A",
+        "extras": {
+          "key": "FURN/$Desk_Room_A",
+          "label": "$Desk_Room_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Sofa_Room_A",
+        "path": "FURN/$Sofa_Room_A",
+        "extras": {
+          "key": "FURN/$Sofa_Room_A",
+          "label": "$Sofa_Room_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Sofa_Room_C",
+        "path": "FURN/$Sofa_Room_C",
+        "extras": {
+          "key": "FURN/$Sofa_Room_C",
+          "label": "$Sofa_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Sofa",
+        "path": "FURN/$Sofa",
+        "extras": {
+          "key": "FURN/$Sofa",
+          "label": "$Sofa",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Bed_Room_C",
+        "path": "FURN/$Bed_Room_C",
+        "extras": {
+          "key": "FURN/$Bed_Room_C",
+          "label": "$Bed_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Hamm",
+        "path": "FURN/$Hamm",
+        "extras": {
+          "key": "FURN/$Hamm",
+          "label": "$Hamm",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Desk_Room_B",
+        "path": "FURN/$Desk_Room_B",
+        "extras": {
+          "key": "FURN/$Desk_Room_B",
+          "label": "$Desk_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Bed_Room_B",
+        "path": "FURN/$Bed_Room_B",
+        "extras": {
+          "key": "FURN/$Bed_Room_B",
+          "label": "$Bed_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$TV_Bracket",
+        "path": "FURN/$TV_Bracket",
+        "extras": {
+          "key": "FURN/$TV_Bracket",
+          "label": "$TV_Bracket",
+          "isVizObj": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "LIGHT",
+    "children": [
+      {
+        "name": "$Chandelier",
+        "path": "LIGHT/$Chandelier",
+        "extras": {
+          "key": "LIGHT/$Chandelier",
+          "label": "$Chandelier",
+          "isVizObj": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "MEP",
+    "children": [
+      {
+        "name": "$Gas_System_Pipes",
+        "path": "MEP/$Gas_System_Pipes",
+        "extras": {
+          "key": "MEP/$Gas_System_Pipes",
+          "label": "$Gas_System_Pipes",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Water_Heater",
+        "path": "MEP/$Water_Heater",
+        "extras": {
+          "key": "MEP/$Water_Heater",
+          "label": "$Water_Heater",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Electric_Wire_In-Wall",
+        "path": "MEP/$Electric_Wire_In-Wall",
+        "extras": {
+          "key": "MEP/$Electric_Wire_In-Wall",
+          "label": "$Electric_Wire_In-Wall",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Electric_Power_Panels",
+        "path": "MEP/$Electric_Power_Panels",
+        "extras": {
+          "key": "MEP/$Electric_Power_Panels",
+          "label": "$Electric_Power_Panels",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Water_Tube_Cold",
+        "path": "MEP/$Water_Tube_Cold",
+        "extras": {
+          "key": "MEP/$Water_Tube_Cold",
+          "label": "$Water_Tube_Cold",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Electric_Box",
+        "path": "MEP/$Electric_Box",
+        "extras": {
+          "key": "MEP/$Electric_Box",
+          "label": "$Electric_Box",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Water_Tube_Hot",
+        "path": "MEP/$Water_Tube_Hot",
+        "extras": {
+          "key": "MEP/$Water_Tube_Hot",
+          "label": "$Water_Tube_Hot",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Electric_Door_Bell",
+        "path": "MEP/$Electric_Door_Bell",
+        "extras": {
+          "key": "MEP/$Electric_Door_Bell",
+          "label": "$Electric_Door_Bell",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Gas_System_Meter",
+        "path": "MEP/$Gas_System_Meter",
+        "extras": {
+          "key": "MEP/$Gas_System_Meter",
+          "label": "$Gas_System_Meter",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Drainage_System_Kitchen_B",
+        "path": "MEP/$Drainage_System_Kitchen_B",
+        "extras": {
+          "key": "MEP/$Drainage_System_Kitchen_B",
+          "label": "$Drainage_System_Kitchen_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Drainage_System_Air_Conditioner",
+        "path": "MEP/$Drainage_System_Air_Conditioner",
+        "extras": {
+          "key": "MEP/$Drainage_System_Air_Conditioner",
+          "label": "$Drainage_System_Air_Conditioner",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Drainage_System_Bathrooms",
+        "path": "MEP/$Drainage_System_Bathrooms",
+        "extras": {
+          "key": "MEP/$Drainage_System_Bathrooms",
+          "label": "$Drainage_System_Bathrooms",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Drainage_System_Kitchen_A",
+        "path": "MEP/$Drainage_System_Kitchen_A",
+        "extras": {
+          "key": "MEP/$Drainage_System_Kitchen_A",
+          "label": "$Drainage_System_Kitchen_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Drainage_System_Bathroom_A",
+        "path": "MEP/$Drainage_System_Bathroom_A",
+        "extras": {
+          "key": "MEP/$Drainage_System_Bathroom_A",
+          "label": "$Drainage_System_Bathroom_A",
+          "isVizObj": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "SAN",
+    "children": [
+      {
+        "name": "$Toilet_Bathroom_A",
+        "path": "SAN/$Toilet_Bathroom_A",
+        "extras": {
+          "key": "SAN/$Toilet_Bathroom_A",
+          "label": "$Toilet_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Shower",
+        "path": "SAN/$Shower",
+        "extras": {
+          "key": "SAN/$Shower",
+          "label": "$Shower",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Washbasin_Bathroom_A",
+        "path": "SAN/$Washbasin_Bathroom_A",
+        "extras": {
+          "key": "SAN/$Washbasin_Bathroom_A",
+          "label": "$Washbasin_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Washbasin_Bathroom_B",
+        "path": "SAN/$Washbasin_Bathroom_B",
+        "extras": {
+          "key": "SAN/$Washbasin_Bathroom_B",
+          "label": "$Washbasin_Bathroom_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Shower_Stalls",
+        "path": "SAN/$Shower_Stalls",
+        "extras": {
+          "key": "SAN/$Shower_Stalls",
+          "label": "$Shower_Stalls",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Toilet_Spray_Bathroom_B",
+        "path": "SAN/$Toilet_Spray_Bathroom_B",
+        "extras": {
+          "key": "SAN/$Toilet_Spray_Bathroom_B",
+          "label": "$Toilet_Spray_Bathroom_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Toilet_Spray_Bathroom_A",
+        "path": "SAN/$Toilet_Spray_Bathroom_A",
+        "extras": {
+          "key": "SAN/$Toilet_Spray_Bathroom_A",
+          "label": "$Toilet_Spray_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Toilet_Bathroom_B",
+        "path": "SAN/$Toilet_Bathroom_B",
+        "extras": {
+          "key": "SAN/$Toilet_Bathroom_B",
+          "label": "$Toilet_Bathroom_B",
+          "isVizObj": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "STRUCT",
+    "children": [
+      {
+        "name": "$Door_Bathroom_B",
+        "path": "STRUCT/$Door_Bathroom_B",
+        "extras": {
+          "key": "STRUCT/$Door_Bathroom_B",
+          "label": "$Door_Bathroom_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_1-1",
+        "path": "STRUCT/$Tile_Outer_Wall_1-1",
+        "extras": {
+          "key": "STRUCT/$Tile_Outer_Wall_1-1",
+          "label": "$Tile_Outer_Wall_1-1",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Wall_Wood_Partition",
+        "path": "STRUCT/$Wall_Wood_Partition",
+        "extras": {
+          "key": "STRUCT/$Wall_Wood_Partition",
+          "label": "$Wall_Wood_Partition",
+          "isVizObj": true,
+          "isSolidWall": true
+        }
+      },
+      {
+        "name": "$Door_Bathroom_A",
+        "path": "STRUCT/$Door_Bathroom_A",
+        "extras": {
+          "key": "STRUCT/$Door_Bathroom_A",
+          "label": "$Door_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Grille_Room_A",
+        "path": "STRUCT/$Grille_Room_A",
+        "extras": {
+          "key": "STRUCT/$Grille_Room_A",
+          "label": "$Grille_Room_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Tile_Balcony",
+        "path": "STRUCT/$Tile_Balcony",
+        "extras": {
+          "key": "STRUCT/$Tile_Balcony",
+          "label": "$Tile_Balcony",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Door_Room_B",
+        "path": "STRUCT/$Door_Room_B",
+        "extras": {
+          "key": "STRUCT/$Door_Room_B",
+          "label": "$Door_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Canopy_Room_B",
+        "path": "STRUCT/$Canopy_Room_B",
+        "extras": {
+          "key": "STRUCT/$Canopy_Room_B",
+          "label": "$Canopy_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Door_Balcony",
+        "path": "STRUCT/$Door_Balcony",
+        "extras": {
+          "key": "STRUCT/$Door_Balcony",
+          "label": "$Door_Balcony",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_1-2",
+        "path": "STRUCT/$Tile_Outer_Wall_1-2",
+        "extras": {
+          "key": "STRUCT/$Tile_Outer_Wall_1-2",
+          "label": "$Tile_Outer_Wall_1-2",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Grille_Living_Room",
+        "path": "STRUCT/$Grille_Living_Room",
+        "extras": {
+          "key": "STRUCT/$Grille_Living_Room",
+          "label": "$Grille_Living_Room",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Canopy_Room_C",
+        "path": "STRUCT/$Canopy_Room_C",
+        "extras": {
+          "key": "STRUCT/$Canopy_Room_C",
+          "label": "$Canopy_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Wall_Bathroom_B",
+        "path": "STRUCT/$Wall_Bathroom_B",
+        "extras": {
+          "key": "STRUCT/$Wall_Bathroom_B",
+          "label": "$Wall_Bathroom_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Wall_Bathroom_A",
+        "path": "STRUCT/$Wall_Bathroom_A",
+        "extras": {
+          "key": "STRUCT/$Wall_Bathroom_A",
+          "label": "$Wall_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Door_MainEntrance",
+        "path": "STRUCT/$Door_MainEntrance",
+        "extras": {
+          "key": "STRUCT/$Door_MainEntrance",
+          "label": "$Door_MainEntrance",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Grille_Room_C",
+        "path": "STRUCT/$Grille_Room_C",
+        "extras": {
+          "key": "STRUCT/$Grille_Room_C",
+          "label": "$Grille_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Door_Room_A",
+        "path": "STRUCT/$Door_Room_A",
+        "extras": {
+          "key": "STRUCT/$Door_Room_A",
+          "label": "$Door_Room_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Glass_Balcony",
+        "path": "STRUCT/$Glass_Balcony",
+        "extras": {
+          "key": "STRUCT/$Glass_Balcony",
+          "label": "$Glass_Balcony",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Grille_Balcony",
+        "path": "STRUCT/$Grille_Balcony",
+        "extras": {
+          "key": "STRUCT/$Grille_Balcony",
+          "label": "$Grille_Balcony",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_2",
+        "path": "STRUCT/$Tile_Outer_Wall_2",
+        "extras": {
+          "key": "STRUCT/$Tile_Outer_Wall_2",
+          "label": "$Tile_Outer_Wall_2",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Wall_Concrete_Main",
+        "path": "STRUCT/$Wall_Concrete_Main",
+        "extras": {
+          "key": "STRUCT/$Wall_Concrete_Main",
+          "label": "$Wall_Concrete_Main",
+          "isVizObj": true,
+          "isSolidWall": true
+        }
+      },
+      {
+        "name": "$Door_Room_C",
+        "path": "STRUCT/$Door_Room_C",
+        "extras": {
+          "key": "STRUCT/$Door_Room_C",
+          "label": "$Door_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Grille_Room_B",
+        "path": "STRUCT/$Grille_Room_B",
+        "extras": {
+          "key": "STRUCT/$Grille_Room_B",
+          "label": "$Grille_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_3",
+        "path": "STRUCT/$Tile_Outer_Wall_3",
+        "extras": {
+          "key": "STRUCT/$Tile_Outer_Wall_3",
+          "label": "$Tile_Outer_Wall_3",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Hall_Outer",
+        "path": "STRUCT/$Hall_Outer",
+        "extras": {
+          "key": "STRUCT/$Hall_Outer",
+          "label": "$Hall_Outer",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Wall_Wood_Partition_Wood",
+        "path": "STRUCT/$Wall_Wood_Partition_Wood",
+        "extras": {
+          "key": "STRUCT/$Wall_Wood_Partition_Wood",
+          "label": "$Wall_Wood_Partition_Wood",
+          "isVizObj": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "TEST",
+    "children": [
+      {
+        "name": "FOLDER",
+        "children": [
+          {
+            "name": "$Origin",
+            "path": "TEST/FOLDER/$Origin",
+            "extras": {
+              "key": "TEST/FOLDER/$Origin",
+              "label": "$Origin",
+              "isVizObj": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "$Origin",
+    "path": "$Origin",
+    "extras": {
+      "key": "$Origin",
+      "label": "$Origin",
+      "isVizObj": true
+    }
+  }
+]
