@@ -1,13 +1,22 @@
 [
   {
+    "name": "$Origin",
+    "path": "$Origin",
+    "extras": {
+      "key": "$Origin",
+      "label": "$Origin",
+      "isVizObj": true
+    }
+  },
+  {
     "name": "APP",
     "children": [
       {
-        "name": "$Stove_Sakura",
-        "path": "APP/$Stove_Sakura",
+        "name": "$Air_Conditioner_Living_Room",
+        "path": "APP/$Air_Conditioner_Living_Room",
         "extras": {
-          "key": "APP/$Stove_Sakura",
-          "label": "$Stove_Sakura",
+          "key": "APP/$Air_Conditioner_Living_Room",
+          "label": "$Air_Conditioner_Living_Room",
           "isVizObj": true
         }
       },
@@ -21,29 +30,38 @@
         }
       },
       {
-        "name": "$TV",
-        "path": "APP/$TV",
-        "extras": {
-          "key": "APP/$TV",
-          "label": "$TV",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Steam_Oven_Panasonic_NU-SC100",
-        "path": "APP/$Steam_Oven_Panasonic_NU-SC100",
-        "extras": {
-          "key": "APP/$Steam_Oven_Panasonic_NU-SC100",
-          "label": "$Steam_Oven_Panasonic_NU-SC100",
-          "isVizObj": true
-        }
-      },
-      {
         "name": "$Air_Conditioner_Room_B",
         "path": "APP/$Air_Conditioner_Room_B",
         "extras": {
           "key": "APP/$Air_Conditioner_Room_B",
           "label": "$Air_Conditioner_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Air_Conditioner_Room_C",
+        "path": "APP/$Air_Conditioner_Room_C",
+        "extras": {
+          "key": "APP/$Air_Conditioner_Room_C",
+          "label": "$Air_Conditioner_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Dishwasher_BOTCH",
+        "path": "APP/$Dishwasher_BOTCH",
+        "extras": {
+          "key": "APP/$Dishwasher_BOTCH",
+          "label": "$Dishwasher_BOTCH",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Exhaust_Hood",
+        "path": "APP/$Exhaust_Hood",
+        "extras": {
+          "key": "APP/$Exhaust_Hood",
+          "label": "$Exhaust_Hood",
           "isVizObj": true
         }
       },
@@ -57,15 +75,6 @@
         }
       },
       {
-        "name": "$Air_Conditioner_Living_Room",
-        "path": "APP/$Air_Conditioner_Living_Room",
-        "extras": {
-          "key": "APP/$Air_Conditioner_Living_Room",
-          "label": "$Air_Conditioner_Living_Room",
-          "isVizObj": true
-        }
-      },
-      {
         "name": "$Refrigerator_Hitachi",
         "path": "APP/$Refrigerator_Hitachi",
         "extras": {
@@ -75,11 +84,38 @@
         }
       },
       {
-        "name": "$Exhaust_Hood",
-        "path": "APP/$Exhaust_Hood",
+        "name": "$Steam_Closet_LG",
+        "path": "APP/$Steam_Closet_LG",
         "extras": {
-          "key": "APP/$Exhaust_Hood",
-          "label": "$Exhaust_Hood",
+          "key": "APP/$Steam_Closet_LG",
+          "label": "$Steam_Closet_LG",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Steam_Oven_Panasonic_NU-SC100",
+        "path": "APP/$Steam_Oven_Panasonic_NU-SC100",
+        "extras": {
+          "key": "APP/$Steam_Oven_Panasonic_NU-SC100",
+          "label": "$Steam_Oven_Panasonic_NU-SC100",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Stove_Sakura",
+        "path": "APP/$Stove_Sakura",
+        "extras": {
+          "key": "APP/$Stove_Sakura",
+          "label": "$Stove_Sakura",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$TV",
+        "path": "APP/$TV",
+        "extras": {
+          "key": "APP/$TV",
+          "label": "$TV",
           "isVizObj": true
         }
       },
@@ -102,38 +138,11 @@
         }
       },
       {
-        "name": "$Air_Conditioner_Room_C",
-        "path": "APP/$Air_Conditioner_Room_C",
-        "extras": {
-          "key": "APP/$Air_Conditioner_Room_C",
-          "label": "$Air_Conditioner_Room_C",
-          "isVizObj": true
-        }
-      },
-      {
         "name": "$Water_Dispenser",
         "path": "APP/$Water_Dispenser",
         "extras": {
           "key": "APP/$Water_Dispenser",
           "label": "$Water_Dispenser",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Dishwasher_BOTCH",
-        "path": "APP/$Dishwasher_BOTCH",
-        "extras": {
-          "key": "APP/$Dishwasher_BOTCH",
-          "label": "$Dishwasher_BOTCH",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Steam_Closet_LG",
-        "path": "APP/$Steam_Closet_LG",
-        "extras": {
-          "key": "APP/$Steam_Closet_LG",
-          "label": "$Steam_Closet_LG",
           "isVizObj": true
         }
       }
@@ -143,56 +152,11 @@
     "name": "CAB",
     "children": [
       {
-        "name": "$Cabinet_Kitchen_1",
-        "path": "CAB/$Cabinet_Kitchen_1",
-        "extras": {
-          "key": "CAB/$Cabinet_Kitchen_1",
-          "label": "$Cabinet_Kitchen_1",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Cabinet_Room_A_1",
-        "path": "CAB/$Cabinet_Room_A_1",
-        "extras": {
-          "key": "CAB/$Cabinet_Room_A_1",
-          "label": "$Cabinet_Room_A_1",
-          "isVizObj": true
-        }
-      },
-      {
         "name": "$Cabinet_Balcony",
         "path": "CAB/$Cabinet_Balcony",
         "extras": {
           "key": "CAB/$Cabinet_Balcony",
           "label": "$Cabinet_Balcony",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Cabinet_Room_A_2",
-        "path": "CAB/$Cabinet_Room_A_2",
-        "extras": {
-          "key": "CAB/$Cabinet_Room_A_2",
-          "label": "$Cabinet_Room_A_2",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Cabinet_Room_C",
-        "path": "CAB/$Cabinet_Room_C",
-        "extras": {
-          "key": "CAB/$Cabinet_Room_C",
-          "label": "$Cabinet_Room_C",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Cabinet_Kitchen_3",
-        "path": "CAB/$Cabinet_Kitchen_3",
-        "extras": {
-          "key": "CAB/$Cabinet_Kitchen_3",
-          "label": "$Cabinet_Kitchen_3",
           "isVizObj": true
         }
       },
@@ -206,11 +170,11 @@
         }
       },
       {
-        "name": "$Cabinet_Outer",
-        "path": "CAB/$Cabinet_Outer",
+        "name": "$Cabinet_Kitchen_1",
+        "path": "CAB/$Cabinet_Kitchen_1",
         "extras": {
-          "key": "CAB/$Cabinet_Outer",
-          "label": "$Cabinet_Outer",
+          "key": "CAB/$Cabinet_Kitchen_1",
+          "label": "$Cabinet_Kitchen_1",
           "isVizObj": true
         }
       },
@@ -224,20 +188,38 @@
         }
       },
       {
-        "name": "$Cabinet_Room_B_2",
-        "path": "CAB/$Cabinet_Room_B_2",
+        "name": "$Cabinet_Kitchen_3",
+        "path": "CAB/$Cabinet_Kitchen_3",
         "extras": {
-          "key": "CAB/$Cabinet_Room_B_2",
-          "label": "$Cabinet_Room_B_2",
+          "key": "CAB/$Cabinet_Kitchen_3",
+          "label": "$Cabinet_Kitchen_3",
           "isVizObj": true
         }
       },
       {
-        "name": "$Cabinet_TV",
-        "path": "CAB/$Cabinet_TV",
+        "name": "$Cabinet_Outer",
+        "path": "CAB/$Cabinet_Outer",
         "extras": {
-          "key": "CAB/$Cabinet_TV",
-          "label": "$Cabinet_TV",
+          "key": "CAB/$Cabinet_Outer",
+          "label": "$Cabinet_Outer",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Room_A_1",
+        "path": "CAB/$Cabinet_Room_A_1",
+        "extras": {
+          "key": "CAB/$Cabinet_Room_A_1",
+          "label": "$Cabinet_Room_A_1",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Room_A_2",
+        "path": "CAB/$Cabinet_Room_A_2",
+        "extras": {
+          "key": "CAB/$Cabinet_Room_A_2",
+          "label": "$Cabinet_Room_A_2",
           "isVizObj": true
         }
       },
@@ -249,12 +231,58 @@
           "label": "$Cabinet_Room_B_1",
           "isVizObj": true
         }
+      },
+      {
+        "name": "$Cabinet_Room_B_2",
+        "path": "CAB/$Cabinet_Room_B_2",
+        "extras": {
+          "key": "CAB/$Cabinet_Room_B_2",
+          "label": "$Cabinet_Room_B_2",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_Room_C",
+        "path": "CAB/$Cabinet_Room_C",
+        "extras": {
+          "key": "CAB/$Cabinet_Room_C",
+          "label": "$Cabinet_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Cabinet_TV",
+        "path": "CAB/$Cabinet_TV",
+        "extras": {
+          "key": "CAB/$Cabinet_TV",
+          "label": "$Cabinet_TV",
+          "isVizObj": true
+        }
       }
     ]
   },
   {
     "name": "CEIL",
     "children": [
+      {
+        "name": "$Ceil_Wooden_Deco",
+        "path": "CEIL/$Ceil_Wooden_Deco",
+        "extras": {
+          "key": "CEIL/$Ceil_Wooden_Deco",
+          "label": "$Ceil_Wooden_Deco",
+          "isVizObj": true,
+          "isSolidWall": true
+        }
+      },
+      {
+        "name": "$Fan_Panasonic_V-21CV2R",
+        "path": "CEIL/$Fan_Panasonic_V-21CV2R",
+        "extras": {
+          "key": "CEIL/$Fan_Panasonic_V-21CV2R",
+          "label": "$Fan_Panasonic_V-21CV2R",
+          "isVizObj": true
+        }
+      },
       {
         "name": "$Heater-Fan_Delta_VHB30ACMRT-V110",
         "path": "CEIL/$Heater-Fan_Delta_VHB30ACMRT-V110",
@@ -272,25 +300,6 @@
           "label": "$Lighting",
           "isVizObj": true
         }
-      },
-      {
-        "name": "$Fan_Panasonic_V-21CV2R",
-        "path": "CEIL/$Fan_Panasonic_V-21CV2R",
-        "extras": {
-          "key": "CEIL/$Fan_Panasonic_V-21CV2R",
-          "label": "$Fan_Panasonic_V-21CV2R",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Ceil_Wooden_Deco",
-        "path": "CEIL/$Ceil_Wooden_Deco",
-        "extras": {
-          "key": "CEIL/$Ceil_Wooden_Deco",
-          "label": "$Ceil_Wooden_Deco",
-          "isVizObj": true,
-          "isSolidWall": true
-        }
       }
     ]
   },
@@ -298,29 +307,11 @@
     "name": "FLOOR",
     "children": [
       {
-        "name": "$Sill_Bathroom_B",
-        "path": "FLOOR/$Sill_Bathroom_B",
+        "name": "$Floor_Bathroom_A",
+        "path": "FLOOR/$Floor_Bathroom_A",
         "extras": {
-          "key": "FLOOR/$Sill_Bathroom_B",
-          "label": "$Sill_Bathroom_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Sill_Bathroom_A",
-        "path": "FLOOR/$Sill_Bathroom_A",
-        "extras": {
-          "key": "FLOOR/$Sill_Bathroom_A",
-          "label": "$Sill_Bathroom_A",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Sill_Kitchen",
-        "path": "FLOOR/$Sill_Kitchen",
-        "extras": {
-          "key": "FLOOR/$Sill_Kitchen",
-          "label": "$Sill_Kitchen",
+          "key": "FLOOR/$Floor_Bathroom_A",
+          "label": "$Floor_Bathroom_A",
           "isVizObj": true
         }
       },
@@ -330,15 +321,6 @@
         "extras": {
           "key": "FLOOR/$Floor_Bathroom_B",
           "label": "$Floor_Bathroom_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Floor_Bathroom_A",
-        "path": "FLOOR/$Floor_Bathroom_A",
-        "extras": {
-          "key": "FLOOR/$Floor_Bathroom_A",
-          "label": "$Floor_Bathroom_A",
           "isVizObj": true
         }
       },
@@ -361,20 +343,47 @@
         }
       },
       {
-        "name": "$Stone_Bathroom_A",
-        "path": "FLOOR/$Stone_Bathroom_A",
-        "extras": {
-          "key": "FLOOR/$Stone_Bathroom_A",
-          "label": "$Stone_Bathroom_A",
-          "isVizObj": true
-        }
-      },
-      {
         "name": "$Floor_Outer",
         "path": "FLOOR/$Floor_Outer",
         "extras": {
           "key": "FLOOR/$Floor_Outer",
           "label": "$Floor_Outer",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Sill_Bathroom_A",
+        "path": "FLOOR/$Sill_Bathroom_A",
+        "extras": {
+          "key": "FLOOR/$Sill_Bathroom_A",
+          "label": "$Sill_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Sill_Bathroom_B",
+        "path": "FLOOR/$Sill_Bathroom_B",
+        "extras": {
+          "key": "FLOOR/$Sill_Bathroom_B",
+          "label": "$Sill_Bathroom_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Sill_Kitchen",
+        "path": "FLOOR/$Sill_Kitchen",
+        "extras": {
+          "key": "FLOOR/$Sill_Kitchen",
+          "label": "$Sill_Kitchen",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Stone_Bathroom_A",
+        "path": "FLOOR/$Stone_Bathroom_A",
+        "extras": {
+          "key": "FLOOR/$Stone_Bathroom_A",
+          "label": "$Stone_Bathroom_A",
           "isVizObj": true
         }
       }
@@ -384,11 +393,56 @@
     "name": "FURN",
     "children": [
       {
+        "name": "$Bed_Room_B",
+        "path": "FURN/$Bed_Room_B",
+        "extras": {
+          "key": "FURN/$Bed_Room_B",
+          "label": "$Bed_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Bed_Room_C",
+        "path": "FURN/$Bed_Room_C",
+        "extras": {
+          "key": "FURN/$Bed_Room_C",
+          "label": "$Bed_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
         "name": "$Desk_Room_A",
         "path": "FURN/$Desk_Room_A",
         "extras": {
           "key": "FURN/$Desk_Room_A",
           "label": "$Desk_Room_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Desk_Room_B",
+        "path": "FURN/$Desk_Room_B",
+        "extras": {
+          "key": "FURN/$Desk_Room_B",
+          "label": "$Desk_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Hamm",
+        "path": "FURN/$Hamm",
+        "extras": {
+          "key": "FURN/$Hamm",
+          "label": "$Hamm",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Sofa",
+        "path": "FURN/$Sofa",
+        "extras": {
+          "key": "FURN/$Sofa",
+          "label": "$Sofa",
           "isVizObj": true
         }
       },
@@ -407,51 +461,6 @@
         "extras": {
           "key": "FURN/$Sofa_Room_C",
           "label": "$Sofa_Room_C",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Sofa",
-        "path": "FURN/$Sofa",
-        "extras": {
-          "key": "FURN/$Sofa",
-          "label": "$Sofa",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Bed_Room_C",
-        "path": "FURN/$Bed_Room_C",
-        "extras": {
-          "key": "FURN/$Bed_Room_C",
-          "label": "$Bed_Room_C",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Hamm",
-        "path": "FURN/$Hamm",
-        "extras": {
-          "key": "FURN/$Hamm",
-          "label": "$Hamm",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Desk_Room_B",
-        "path": "FURN/$Desk_Room_B",
-        "extras": {
-          "key": "FURN/$Desk_Room_B",
-          "label": "$Desk_Room_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Bed_Room_B",
-        "path": "FURN/$Bed_Room_B",
-        "extras": {
-          "key": "FURN/$Bed_Room_B",
-          "label": "$Bed_Room_B",
           "isVizObj": true
         }
       },
@@ -484,101 +493,20 @@
     "name": "MEP",
     "children": [
       {
-        "name": "$Gas_System_Pipes",
-        "path": "MEP/$Gas_System_Pipes",
-        "extras": {
-          "key": "MEP/$Gas_System_Pipes",
-          "label": "$Gas_System_Pipes",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Water_Heater",
-        "path": "MEP/$Water_Heater",
-        "extras": {
-          "key": "MEP/$Water_Heater",
-          "label": "$Water_Heater",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Electric_Wire_In-Wall",
-        "path": "MEP/$Electric_Wire_In-Wall",
-        "extras": {
-          "key": "MEP/$Electric_Wire_In-Wall",
-          "label": "$Electric_Wire_In-Wall",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Electric_Power_Panels",
-        "path": "MEP/$Electric_Power_Panels",
-        "extras": {
-          "key": "MEP/$Electric_Power_Panels",
-          "label": "$Electric_Power_Panels",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Water_Tube_Cold",
-        "path": "MEP/$Water_Tube_Cold",
-        "extras": {
-          "key": "MEP/$Water_Tube_Cold",
-          "label": "$Water_Tube_Cold",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Electric_Box",
-        "path": "MEP/$Electric_Box",
-        "extras": {
-          "key": "MEP/$Electric_Box",
-          "label": "$Electric_Box",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Water_Tube_Hot",
-        "path": "MEP/$Water_Tube_Hot",
-        "extras": {
-          "key": "MEP/$Water_Tube_Hot",
-          "label": "$Water_Tube_Hot",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Electric_Door_Bell",
-        "path": "MEP/$Electric_Door_Bell",
-        "extras": {
-          "key": "MEP/$Electric_Door_Bell",
-          "label": "$Electric_Door_Bell",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Gas_System_Meter",
-        "path": "MEP/$Gas_System_Meter",
-        "extras": {
-          "key": "MEP/$Gas_System_Meter",
-          "label": "$Gas_System_Meter",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Drainage_System_Kitchen_B",
-        "path": "MEP/$Drainage_System_Kitchen_B",
-        "extras": {
-          "key": "MEP/$Drainage_System_Kitchen_B",
-          "label": "$Drainage_System_Kitchen_B",
-          "isVizObj": true
-        }
-      },
-      {
         "name": "$Drainage_System_Air_Conditioner",
         "path": "MEP/$Drainage_System_Air_Conditioner",
         "extras": {
           "key": "MEP/$Drainage_System_Air_Conditioner",
           "label": "$Drainage_System_Air_Conditioner",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Drainage_System_Bathroom_A",
+        "path": "MEP/$Drainage_System_Bathroom_A",
+        "extras": {
+          "key": "MEP/$Drainage_System_Bathroom_A",
+          "label": "$Drainage_System_Bathroom_A",
           "isVizObj": true
         }
       },
@@ -601,11 +529,92 @@
         }
       },
       {
-        "name": "$Drainage_System_Bathroom_A",
-        "path": "MEP/$Drainage_System_Bathroom_A",
+        "name": "$Drainage_System_Kitchen_B",
+        "path": "MEP/$Drainage_System_Kitchen_B",
         "extras": {
-          "key": "MEP/$Drainage_System_Bathroom_A",
-          "label": "$Drainage_System_Bathroom_A",
+          "key": "MEP/$Drainage_System_Kitchen_B",
+          "label": "$Drainage_System_Kitchen_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Electric_Box",
+        "path": "MEP/$Electric_Box",
+        "extras": {
+          "key": "MEP/$Electric_Box",
+          "label": "$Electric_Box",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Electric_Door_Bell",
+        "path": "MEP/$Electric_Door_Bell",
+        "extras": {
+          "key": "MEP/$Electric_Door_Bell",
+          "label": "$Electric_Door_Bell",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Electric_Power_Panels",
+        "path": "MEP/$Electric_Power_Panels",
+        "extras": {
+          "key": "MEP/$Electric_Power_Panels",
+          "label": "$Electric_Power_Panels",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Electric_Wire_In-Wall",
+        "path": "MEP/$Electric_Wire_In-Wall",
+        "extras": {
+          "key": "MEP/$Electric_Wire_In-Wall",
+          "label": "$Electric_Wire_In-Wall",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Gas_System_Meter",
+        "path": "MEP/$Gas_System_Meter",
+        "extras": {
+          "key": "MEP/$Gas_System_Meter",
+          "label": "$Gas_System_Meter",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Gas_System_Pipes",
+        "path": "MEP/$Gas_System_Pipes",
+        "extras": {
+          "key": "MEP/$Gas_System_Pipes",
+          "label": "$Gas_System_Pipes",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Water_Heater",
+        "path": "MEP/$Water_Heater",
+        "extras": {
+          "key": "MEP/$Water_Heater",
+          "label": "$Water_Heater",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Water_Tube_Cold",
+        "path": "MEP/$Water_Tube_Cold",
+        "extras": {
+          "key": "MEP/$Water_Tube_Cold",
+          "label": "$Water_Tube_Cold",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Water_Tube_Hot",
+        "path": "MEP/$Water_Tube_Hot",
+        "extras": {
+          "key": "MEP/$Water_Tube_Hot",
+          "label": "$Water_Tube_Hot",
           "isVizObj": true
         }
       }
@@ -614,6 +623,24 @@
   {
     "name": "SAN",
     "children": [
+      {
+        "name": "$Shower",
+        "path": "SAN/$Shower",
+        "extras": {
+          "key": "SAN/$Shower",
+          "label": "$Shower",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Shower_Stalls",
+        "path": "SAN/$Shower_Stalls",
+        "extras": {
+          "key": "SAN/$Shower_Stalls",
+          "label": "$Shower_Stalls",
+          "isVizObj": true
+        }
+      },
       {
         "name": "$Toilet_Bathroom_A",
         "path": "SAN/$Toilet_Bathroom_A",
@@ -624,11 +651,29 @@
         }
       },
       {
-        "name": "$Shower",
-        "path": "SAN/$Shower",
+        "name": "$Toilet_Bathroom_B",
+        "path": "SAN/$Toilet_Bathroom_B",
         "extras": {
-          "key": "SAN/$Shower",
-          "label": "$Shower",
+          "key": "SAN/$Toilet_Bathroom_B",
+          "label": "$Toilet_Bathroom_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Toilet_Spray_Bathroom_A",
+        "path": "SAN/$Toilet_Spray_Bathroom_A",
+        "extras": {
+          "key": "SAN/$Toilet_Spray_Bathroom_A",
+          "label": "$Toilet_Spray_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Toilet_Spray_Bathroom_B",
+        "path": "SAN/$Toilet_Spray_Bathroom_B",
+        "extras": {
+          "key": "SAN/$Toilet_Spray_Bathroom_B",
+          "label": "$Toilet_Spray_Bathroom_B",
           "isVizObj": true
         }
       },
@@ -649,42 +694,6 @@
           "label": "$Washbasin_Bathroom_B",
           "isVizObj": true
         }
-      },
-      {
-        "name": "$Shower_Stalls",
-        "path": "SAN/$Shower_Stalls",
-        "extras": {
-          "key": "SAN/$Shower_Stalls",
-          "label": "$Shower_Stalls",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Toilet_Spray_Bathroom_B",
-        "path": "SAN/$Toilet_Spray_Bathroom_B",
-        "extras": {
-          "key": "SAN/$Toilet_Spray_Bathroom_B",
-          "label": "$Toilet_Spray_Bathroom_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Toilet_Spray_Bathroom_A",
-        "path": "SAN/$Toilet_Spray_Bathroom_A",
-        "extras": {
-          "key": "SAN/$Toilet_Spray_Bathroom_A",
-          "label": "$Toilet_Spray_Bathroom_A",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Toilet_Bathroom_B",
-        "path": "SAN/$Toilet_Bathroom_B",
-        "extras": {
-          "key": "SAN/$Toilet_Bathroom_B",
-          "label": "$Toilet_Bathroom_B",
-          "isVizObj": true
-        }
       }
     ]
   },
@@ -692,66 +701,29 @@
     "name": "STRUCT",
     "children": [
       {
-        "name": "$Door_Bathroom_B",
-        "path": "STRUCT/$Door_Bathroom_B",
+        "name": "$Bay_Window_A",
+        "path": "STRUCT/$Bay_Window_A",
         "extras": {
-          "key": "STRUCT/$Door_Bathroom_B",
-          "label": "$Door_Bathroom_B",
+          "key": "STRUCT/$Bay_Window_A",
+          "label": "$Bay_Window_A",
           "isVizObj": true
         }
       },
       {
-        "name": "$Tile_Outer_Wall_1-1",
-        "path": "STRUCT/$Tile_Outer_Wall_1-1",
+        "name": "$Bay_Window_B",
+        "path": "STRUCT/$Bay_Window_B",
         "extras": {
-          "key": "STRUCT/$Tile_Outer_Wall_1-1",
-          "label": "$Tile_Outer_Wall_1-1",
+          "key": "STRUCT/$Bay_Window_B",
+          "label": "$Bay_Window_B",
           "isVizObj": true
         }
       },
       {
-        "name": "$Wall_Wood_Partition",
-        "path": "STRUCT/$Wall_Wood_Partition",
+        "name": "$Bay_Window_C",
+        "path": "STRUCT/$Bay_Window_C",
         "extras": {
-          "key": "STRUCT/$Wall_Wood_Partition",
-          "label": "$Wall_Wood_Partition",
-          "isVizObj": true,
-          "isSolidWall": true
-        }
-      },
-      {
-        "name": "$Door_Bathroom_A",
-        "path": "STRUCT/$Door_Bathroom_A",
-        "extras": {
-          "key": "STRUCT/$Door_Bathroom_A",
-          "label": "$Door_Bathroom_A",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Grille_Room_A",
-        "path": "STRUCT/$Grille_Room_A",
-        "extras": {
-          "key": "STRUCT/$Grille_Room_A",
-          "label": "$Grille_Room_A",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Tile_Balcony",
-        "path": "STRUCT/$Tile_Balcony",
-        "extras": {
-          "key": "STRUCT/$Tile_Balcony",
-          "label": "$Tile_Balcony",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Door_Room_B",
-        "path": "STRUCT/$Door_Room_B",
-        "extras": {
-          "key": "STRUCT/$Door_Room_B",
-          "label": "$Door_Room_B",
+          "key": "STRUCT/$Bay_Window_C",
+          "label": "$Bay_Window_C",
           "isVizObj": true
         }
       },
@@ -765,33 +737,6 @@
         }
       },
       {
-        "name": "$Door_Balcony",
-        "path": "STRUCT/$Door_Balcony",
-        "extras": {
-          "key": "STRUCT/$Door_Balcony",
-          "label": "$Door_Balcony",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Tile_Outer_Wall_1-2",
-        "path": "STRUCT/$Tile_Outer_Wall_1-2",
-        "extras": {
-          "key": "STRUCT/$Tile_Outer_Wall_1-2",
-          "label": "$Tile_Outer_Wall_1-2",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Grille_Living_Room",
-        "path": "STRUCT/$Grille_Living_Room",
-        "extras": {
-          "key": "STRUCT/$Grille_Living_Room",
-          "label": "$Grille_Living_Room",
-          "isVizObj": true
-        }
-      },
-      {
         "name": "$Canopy_Room_C",
         "path": "STRUCT/$Canopy_Room_C",
         "extras": {
@@ -801,20 +746,29 @@
         }
       },
       {
-        "name": "$Wall_Bathroom_B",
-        "path": "STRUCT/$Wall_Bathroom_B",
+        "name": "$Door_Balcony",
+        "path": "STRUCT/$Door_Balcony",
         "extras": {
-          "key": "STRUCT/$Wall_Bathroom_B",
-          "label": "$Wall_Bathroom_B",
+          "key": "STRUCT/$Door_Balcony",
+          "label": "$Door_Balcony",
           "isVizObj": true
         }
       },
       {
-        "name": "$Wall_Bathroom_A",
-        "path": "STRUCT/$Wall_Bathroom_A",
+        "name": "$Door_Bathroom_A",
+        "path": "STRUCT/$Door_Bathroom_A",
         "extras": {
-          "key": "STRUCT/$Wall_Bathroom_A",
-          "label": "$Wall_Bathroom_A",
+          "key": "STRUCT/$Door_Bathroom_A",
+          "label": "$Door_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Door_Bathroom_B",
+        "path": "STRUCT/$Door_Bathroom_B",
+        "extras": {
+          "key": "STRUCT/$Door_Bathroom_B",
+          "label": "$Door_Bathroom_B",
           "isVizObj": true
         }
       },
@@ -828,20 +782,29 @@
         }
       },
       {
-        "name": "$Grille_Room_C",
-        "path": "STRUCT/$Grille_Room_C",
-        "extras": {
-          "key": "STRUCT/$Grille_Room_C",
-          "label": "$Grille_Room_C",
-          "isVizObj": true
-        }
-      },
-      {
         "name": "$Door_Room_A",
         "path": "STRUCT/$Door_Room_A",
         "extras": {
           "key": "STRUCT/$Door_Room_A",
           "label": "$Door_Room_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Door_Room_B",
+        "path": "STRUCT/$Door_Room_B",
+        "extras": {
+          "key": "STRUCT/$Door_Room_B",
+          "label": "$Door_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Door_Room_C",
+        "path": "STRUCT/$Door_Room_C",
+        "extras": {
+          "key": "STRUCT/$Door_Room_C",
+          "label": "$Door_Room_C",
           "isVizObj": true
         }
       },
@@ -864,11 +827,110 @@
         }
       },
       {
+        "name": "$Grille_Living_Room",
+        "path": "STRUCT/$Grille_Living_Room",
+        "extras": {
+          "key": "STRUCT/$Grille_Living_Room",
+          "label": "$Grille_Living_Room",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Grille_Room_A",
+        "path": "STRUCT/$Grille_Room_A",
+        "extras": {
+          "key": "STRUCT/$Grille_Room_A",
+          "label": "$Grille_Room_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Grille_Room_B",
+        "path": "STRUCT/$Grille_Room_B",
+        "extras": {
+          "key": "STRUCT/$Grille_Room_B",
+          "label": "$Grille_Room_B",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Grille_Room_C",
+        "path": "STRUCT/$Grille_Room_C",
+        "extras": {
+          "key": "STRUCT/$Grille_Room_C",
+          "label": "$Grille_Room_C",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Hall_Outer",
+        "path": "STRUCT/$Hall_Outer",
+        "extras": {
+          "key": "STRUCT/$Hall_Outer",
+          "label": "$Hall_Outer",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Tile_Balcony",
+        "path": "STRUCT/$Tile_Balcony",
+        "extras": {
+          "key": "STRUCT/$Tile_Balcony",
+          "label": "$Tile_Balcony",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_1-1",
+        "path": "STRUCT/$Tile_Outer_Wall_1-1",
+        "extras": {
+          "key": "STRUCT/$Tile_Outer_Wall_1-1",
+          "label": "$Tile_Outer_Wall_1-1",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_1-2",
+        "path": "STRUCT/$Tile_Outer_Wall_1-2",
+        "extras": {
+          "key": "STRUCT/$Tile_Outer_Wall_1-2",
+          "label": "$Tile_Outer_Wall_1-2",
+          "isVizObj": true
+        }
+      },
+      {
         "name": "$Tile_Outer_Wall_2",
         "path": "STRUCT/$Tile_Outer_Wall_2",
         "extras": {
           "key": "STRUCT/$Tile_Outer_Wall_2",
           "label": "$Tile_Outer_Wall_2",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_3",
+        "path": "STRUCT/$Tile_Outer_Wall_3",
+        "extras": {
+          "key": "STRUCT/$Tile_Outer_Wall_3",
+          "label": "$Tile_Outer_Wall_3",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Wall_Bathroom_A",
+        "path": "STRUCT/$Wall_Bathroom_A",
+        "extras": {
+          "key": "STRUCT/$Wall_Bathroom_A",
+          "label": "$Wall_Bathroom_A",
+          "isVizObj": true
+        }
+      },
+      {
+        "name": "$Wall_Bathroom_B",
+        "path": "STRUCT/$Wall_Bathroom_B",
+        "extras": {
+          "key": "STRUCT/$Wall_Bathroom_B",
+          "label": "$Wall_Bathroom_B",
           "isVizObj": true
         }
       },
@@ -883,39 +945,13 @@
         }
       },
       {
-        "name": "$Door_Room_C",
-        "path": "STRUCT/$Door_Room_C",
+        "name": "$Wall_Wood_Partition",
+        "path": "STRUCT/$Wall_Wood_Partition",
         "extras": {
-          "key": "STRUCT/$Door_Room_C",
-          "label": "$Door_Room_C",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Grille_Room_B",
-        "path": "STRUCT/$Grille_Room_B",
-        "extras": {
-          "key": "STRUCT/$Grille_Room_B",
-          "label": "$Grille_Room_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Tile_Outer_Wall_3",
-        "path": "STRUCT/$Tile_Outer_Wall_3",
-        "extras": {
-          "key": "STRUCT/$Tile_Outer_Wall_3",
-          "label": "$Tile_Outer_Wall_3",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Hall_Outer",
-        "path": "STRUCT/$Hall_Outer",
-        "extras": {
-          "key": "STRUCT/$Hall_Outer",
-          "label": "$Hall_Outer",
-          "isVizObj": true
+          "key": "STRUCT/$Wall_Wood_Partition",
+          "label": "$Wall_Wood_Partition",
+          "isVizObj": true,
+          "isSolidWall": true
         }
       },
       {
@@ -947,14 +983,5 @@
         ]
       }
     ]
-  },
-  {
-    "name": "$Origin",
-    "path": "$Origin",
-    "extras": {
-      "key": "$Origin",
-      "label": "$Origin",
-      "isVizObj": true
-    }
   }
 ]
