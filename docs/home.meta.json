@@ -5,7 +5,17 @@
     "extras": {
       "key": "$Origin",
       "label": "$Origin",
-      "isVizObj": true
+      "isVizObj": true,
+      "i18n": {
+        "en": {
+          "label": "Origin",
+          "description": "Origin Point"
+        },
+        "zh-TW": {
+          "label": "原點",
+          "description": "原點"
+        }
+      }
     }
   },
   {
@@ -17,7 +27,17 @@
         "extras": {
           "key": "APP/$Air_Conditioner_Living_Room",
           "label": "$Air_Conditioner_Living_Room",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "AC-LR",
+              "description": "Air Conditioner, Living Room"
+            },
+            "zh-TW": {
+              "label": "客廳空調",
+              "description": "客廳空調"
+            }
+          }
         }
       },
       {
@@ -26,7 +46,17 @@
         "extras": {
           "key": "APP/$Air_Conditioner_Room_A",
           "label": "$Air_Conditioner_Room_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "AC-RA",
+              "description": "Air Conditioner, Room A"
+            },
+            "zh-TW": {
+              "label": "A 室空調",
+              "description": "A 室空調"
+            }
+          }
         }
       },
       {
@@ -35,7 +65,17 @@
         "extras": {
           "key": "APP/$Air_Conditioner_Room_B",
           "label": "$Air_Conditioner_Room_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "AC-RB",
+              "description": "Air Conditioner, Room B"
+            },
+            "zh-TW": {
+              "label": "B 室空調",
+              "description": "B 室空調"
+            }
+          }
         }
       },
       {
@@ -44,7 +84,17 @@
         "extras": {
           "key": "APP/$Air_Conditioner_Room_C",
           "label": "$Air_Conditioner_Room_C",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "AC-RC",
+              "description": "Air Conditioner, Room C"
+            },
+            "zh-TW": {
+              "label": "C 室空調",
+              "description": "C 室空調"
+            }
+          }
         }
       },
       {
@@ -53,7 +103,17 @@
         "extras": {
           "key": "APP/$Dishwasher_BOTCH",
           "label": "$Dishwasher_BOTCH",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DW",
+              "description": "Dishwasher (BOTCH Model)"
+            },
+            "zh-TW": {
+              "label": "洗碗機 (BOTCH 型號)",
+              "description": "洗碗機 (BOTCH 型號)"
+            }
+          }
         }
       },
       {
@@ -62,7 +122,17 @@
         "extras": {
           "key": "APP/$Exhaust_Hood",
           "label": "$Exhaust_Hood",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "EH",
+              "description": "Exhaust Hood"
+            },
+            "zh-TW": {
+              "label": "抽油煙機",
+              "description": "抽油煙機"
+            }
+          }
         }
       },
       {
@@ -71,7 +141,17 @@
         "extras": {
           "key": "APP/$Microwave_Panasonic_NN-ST34NB",
           "label": "$Microwave_Panasonic_NN-ST34NB",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "MW",
+              "description": "Microwave Oven (Panasonic NN-ST34NB)"
+            },
+            "zh-TW": {
+              "label": "微波爐 (Panasonic NN-ST34NB)",
+              "description": "微波爐 (Panasonic NN-ST34NB)"
+            }
+          }
         }
       },
       {
@@ -80,7 +160,17 @@
         "extras": {
           "key": "APP/$Refrigerator_Hitachi",
           "label": "$Refrigerator_Hitachi",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "RF",
+              "description": "Refrigerator (Hitachi)"
+            },
+            "zh-TW": {
+              "label": "冰箱 (日立)",
+              "description": "冰箱 (日立)"
+            }
+          }
         }
       },
       {
@@ -89,7 +179,17 @@
         "extras": {
           "key": "APP/$Steam_Closet_LG",
           "label": "$Steam_Closet_LG",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SC",
+              "description": "Steam Closet (LG)"
+            },
+            "zh-TW": {
+              "label": "蒸氣衣櫥 (LG)",
+              "description": "蒸氣衣櫥 (LG)"
+            }
+          }
         }
       },
       {
@@ -98,7 +198,17 @@
         "extras": {
           "key": "APP/$Steam_Oven_Panasonic_NU-SC100",
           "label": "$Steam_Oven_Panasonic_NU-SC100",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SO",
+              "description": "Steam Oven (Panasonic NU-SC100)"
+            },
+            "zh-TW": {
+              "label": "蒸烤爐 (Panasonic NU-SC100)",
+              "description": "蒸烤爐 (Panasonic NU-SC100)"
+            }
+          }
         }
       },
       {
@@ -107,7 +217,17 @@
         "extras": {
           "key": "APP/$Stove_Sakura",
           "label": "$Stove_Sakura",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "ST",
+              "description": "Stove/Cooktop (Sakura)"
+            },
+            "zh-TW": {
+              "label": "爐灶/瓦斯爐 (櫻花)",
+              "description": "爐灶/瓦斯爐 (櫻花)"
+            }
+          }
         }
       },
       {
@@ -116,7 +236,17 @@
         "extras": {
           "key": "APP/$TV",
           "label": "$TV",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TV",
+              "description": "Television"
+            },
+            "zh-TW": {
+              "label": "電視",
+              "description": "電視"
+            }
+          }
         }
       },
       {
@@ -125,7 +255,17 @@
         "extras": {
           "key": "APP/$Washer_Dryer_Whirlpool_A",
           "label": "$Washer_Dryer_Whirlpool_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "WD-A",
+              "description": "Washer Dryer A (Whirlpool)"
+            },
+            "zh-TW": {
+              "label": "洗脫烘衣機 A (惠而浦)",
+              "description": "洗脫烘衣機 A (惠而浦)"
+            }
+          }
         }
       },
       {
@@ -134,7 +274,17 @@
         "extras": {
           "key": "APP/$Washer_Dryer_Whirlpool_B",
           "label": "$Washer_Dryer_Whirlpool_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "WD-B",
+              "description": "Washer Dryer B (Whirlpool)"
+            },
+            "zh-TW": {
+              "label": "洗脫烘衣機 B (惠而浦)",
+              "description": "洗脫烘衣機 B (惠而浦)"
+            }
+          }
         }
       },
       {
@@ -143,10 +293,34 @@
         "extras": {
           "key": "APP/$Water_Dispenser",
           "label": "$Water_Dispenser",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "WAD",
+              "description": "Water Dispenser"
+            },
+            "zh-TW": {
+              "label": "飲水機",
+              "description": "飲水機"
+            }
+          }
         }
       }
-    ]
+    ],
+    "extras": {
+      "key": "APP",
+      "label": "APP",
+      "i18n": {
+        "en": {
+          "label": "APPL",
+          "description": "Appliances"
+        },
+        "zh-TW": {
+          "label": "電器設備",
+          "description": "電器設備"
+        }
+      }
+    }
   },
   {
     "name": "CAB",
@@ -157,7 +331,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Balcony",
           "label": "$Cabinet_Balcony",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-BL",
+              "description": "Cabinet, Balcony"
+            },
+            "zh-TW": {
+              "label": "陽台櫃",
+              "description": "陽台櫃"
+            }
+          }
         }
       },
       {
@@ -166,7 +350,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Bathroom_A",
           "label": "$Cabinet_Bathroom_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-BA",
+              "description": "Cabinet, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴櫃",
+              "description": "A 衛浴櫃"
+            }
+          }
         }
       },
       {
@@ -175,7 +369,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Kitchen_1",
           "label": "$Cabinet_Kitchen_1",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-K1",
+              "description": "Cabinet, Kitchen 1"
+            },
+            "zh-TW": {
+              "label": "廚房櫃 1",
+              "description": "廚房櫃 1"
+            }
+          }
         }
       },
       {
@@ -184,7 +388,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Kitchen_2",
           "label": "$Cabinet_Kitchen_2",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-K2",
+              "description": "Cabinet, Kitchen 2"
+            },
+            "zh-TW": {
+              "label": "廚房櫃 2",
+              "description": "廚房櫃 2"
+            }
+          }
         }
       },
       {
@@ -193,7 +407,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Kitchen_3",
           "label": "$Cabinet_Kitchen_3",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-K3",
+              "description": "Cabinet, Kitchen 3"
+            },
+            "zh-TW": {
+              "label": "廚房櫃 3",
+              "description": "廚房櫃 3"
+            }
+          }
         }
       },
       {
@@ -202,7 +426,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Outer",
           "label": "$Cabinet_Outer",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-OU",
+              "description": "Cabinet, Outer/Exterior"
+            },
+            "zh-TW": {
+              "label": "戶外/玄關櫃",
+              "description": "戶外/玄關櫃"
+            }
+          }
         }
       },
       {
@@ -211,7 +445,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Room_A_1",
           "label": "$Cabinet_Room_A_1",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-R A1",
+              "description": "Cabinet, Room A 1"
+            },
+            "zh-TW": {
+              "label": "A 室櫃 1",
+              "description": "A 室櫃 1"
+            }
+          }
         }
       },
       {
@@ -220,7 +464,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Room_A_2",
           "label": "$Cabinet_Room_A_2",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-R A2",
+              "description": "Cabinet, Room A 2"
+            },
+            "zh-TW": {
+              "label": "A 室櫃 2",
+              "description": "A 室櫃 2"
+            }
+          }
         }
       },
       {
@@ -229,7 +483,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Room_B_1",
           "label": "$Cabinet_Room_B_1",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-R B1",
+              "description": "Cabinet, Room B 1"
+            },
+            "zh-TW": {
+              "label": "B 室櫃 1",
+              "description": "B 室櫃 1"
+            }
+          }
         }
       },
       {
@@ -238,7 +502,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Room_B_2",
           "label": "$Cabinet_Room_B_2",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-R B2",
+              "description": "Cabinet, Room B 2"
+            },
+            "zh-TW": {
+              "label": "B 室櫃 2",
+              "description": "B 室櫃 2"
+            }
+          }
         }
       },
       {
@@ -247,7 +521,17 @@
         "extras": {
           "key": "CAB/$Cabinet_Room_C",
           "label": "$Cabinet_Room_C",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-RC",
+              "description": "Cabinet, Room C"
+            },
+            "zh-TW": {
+              "label": "C 室櫃",
+              "description": "C 室櫃"
+            }
+          }
         }
       },
       {
@@ -256,10 +540,34 @@
         "extras": {
           "key": "CAB/$Cabinet_TV",
           "label": "$Cabinet_TV",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-TV",
+              "description": "Cabinet, TV"
+            },
+            "zh-TW": {
+              "label": "電視櫃",
+              "description": "電視櫃"
+            }
+          }
         }
       }
-    ]
+    ],
+    "extras": {
+      "key": "CAB",
+      "label": "CAB",
+      "i18n": {
+        "en": {
+          "label": "CAB",
+          "description": "Cabinetry"
+        },
+        "zh-TW": {
+          "label": "櫃體",
+          "description": "櫃體"
+        }
+      }
+    }
   },
   {
     "name": "CEIL",
@@ -271,7 +579,16 @@
           "key": "CEIL/$Ceil_Wooden_Deco",
           "label": "$Ceil_Wooden_Deco",
           "isVizObj": true,
-          "isSolidWall": true
+          "i18n": {
+            "en": {
+              "label": "C-WD",
+              "description": "Ceiling, Wooden Decoration"
+            },
+            "zh-TW": {
+              "label": "木裝飾天花板",
+              "description": "木裝飾天花板"
+            }
+          }
         }
       },
       {
@@ -280,7 +597,17 @@
         "extras": {
           "key": "CEIL/$Fan_Panasonic_V-21CV2R",
           "label": "$Fan_Panasonic_V-21CV2R",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "VF",
+              "description": "Ventilation Fan (Panasonic V-21CV2R)"
+            },
+            "zh-TW": {
+              "label": "換氣扇 (Panasonic V-21CV2R)",
+              "description": "換氣扇 (Panasonic V-21CV2R)"
+            }
+          }
         }
       },
       {
@@ -289,7 +616,17 @@
         "extras": {
           "key": "CEIL/$Heater-Fan_Delta_VHB30ACMRT-V110",
           "label": "$Heater-Fan_Delta_VHB30ACMRT-V110",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "HFV",
+              "description": "Heater-Fan/Ventilation (Delta VHB30ACMRT-V110)"
+            },
+            "zh-TW": {
+              "label": "暖風機/換氣 (Delta)",
+              "description": "暖風機/換氣 (Delta)"
+            }
+          }
         }
       },
       {
@@ -298,10 +635,34 @@
         "extras": {
           "key": "CEIL/$Lighting",
           "label": "$Lighting",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "LTG",
+              "description": "Lighting Fixture/System"
+            },
+            "zh-TW": {
+              "label": "燈具/照明系統",
+              "description": "燈具/照明系統"
+            }
+          }
         }
       }
-    ]
+    ],
+    "extras": {
+      "key": "CEIL",
+      "label": "CEIL",
+      "i18n": {
+        "en": {
+          "label": "CEIL",
+          "description": "Ceiling & Fan"
+        },
+        "zh-TW": {
+          "label": "天花板與風扇",
+          "description": "天花板與風扇"
+        }
+      }
+    }
   },
   {
     "name": "FLOOR",
@@ -312,7 +673,17 @@
         "extras": {
           "key": "FLOOR/$Floor_Bathroom_A",
           "label": "$Floor_Bathroom_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "FLR-BA",
+              "description": "Floor, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴地板",
+              "description": "A 衛浴地板"
+            }
+          }
         }
       },
       {
@@ -321,7 +692,17 @@
         "extras": {
           "key": "FLOOR/$Floor_Bathroom_B",
           "label": "$Floor_Bathroom_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "FLR-BB",
+              "description": "Floor, Bathroom B"
+            },
+            "zh-TW": {
+              "label": "B 衛浴地板",
+              "description": "B 衛浴地板"
+            }
+          }
         }
       },
       {
@@ -330,7 +711,17 @@
         "extras": {
           "key": "FLOOR/$Floor_Kitchen",
           "label": "$Floor_Kitchen",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "FLR-K",
+              "description": "Floor, Kitchen"
+            },
+            "zh-TW": {
+              "label": "廚房地板",
+              "description": "廚房地板"
+            }
+          }
         }
       },
       {
@@ -339,7 +730,17 @@
         "extras": {
           "key": "FLOOR/$Floor_Laminate_Main",
           "label": "$Floor_Laminate_Main",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "FLR-LM",
+              "description": "Floor, Main Laminate"
+            },
+            "zh-TW": {
+              "label": "主要區域強化複合地板",
+              "description": "主要區域強化複合地板"
+            }
+          }
         }
       },
       {
@@ -348,7 +749,17 @@
         "extras": {
           "key": "FLOOR/$Floor_Outer",
           "label": "$Floor_Outer",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "FLR-OU",
+              "description": "Floor, Outer/Exterior"
+            },
+            "zh-TW": {
+              "label": "戶外地板",
+              "description": "戶外地板"
+            }
+          }
         }
       },
       {
@@ -357,7 +768,17 @@
         "extras": {
           "key": "FLOOR/$Sill_Bathroom_A",
           "label": "$Sill_Bathroom_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SILL-BA",
+              "description": "Sill/Threshold, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴門檻",
+              "description": "A 衛浴門檻"
+            }
+          }
         }
       },
       {
@@ -366,7 +787,17 @@
         "extras": {
           "key": "FLOOR/$Sill_Bathroom_B",
           "label": "$Sill_Bathroom_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SILL-BB",
+              "description": "Sill/Threshold, Bathroom B"
+            },
+            "zh-TW": {
+              "label": "B 衛浴門檻",
+              "description": "B 衛浴門檻"
+            }
+          }
         }
       },
       {
@@ -375,7 +806,17 @@
         "extras": {
           "key": "FLOOR/$Sill_Kitchen",
           "label": "$Sill_Kitchen",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SILL-K",
+              "description": "Sill/Threshold, Kitchen"
+            },
+            "zh-TW": {
+              "label": "廚房門檻",
+              "description": "廚房門檻"
+            }
+          }
         }
       },
       {
@@ -384,10 +825,34 @@
         "extras": {
           "key": "FLOOR/$Stone_Bathroom_A",
           "label": "$Stone_Bathroom_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "STN-BA",
+              "description": "Stone Countertop/Surface, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴石材檯面/表面",
+              "description": "A 衛浴石材檯面/表面"
+            }
+          }
         }
       }
-    ]
+    ],
+    "extras": {
+      "key": "FLOOR",
+      "label": "FLOOR",
+      "i18n": {
+        "en": {
+          "label": "FLR",
+          "description": "Flooring"
+        },
+        "zh-TW": {
+          "label": "地板與地材",
+          "description": "地板與地材"
+        }
+      }
+    }
   },
   {
     "name": "FURN",
@@ -398,7 +863,17 @@
         "extras": {
           "key": "FURN/$Bed_Room_B",
           "label": "$Bed_Room_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "BED-RB",
+              "description": "Bed, Room B"
+            },
+            "zh-TW": {
+              "label": "B 室床",
+              "description": "B 室床"
+            }
+          }
         }
       },
       {
@@ -407,7 +882,93 @@
         "extras": {
           "key": "FURN/$Bed_Room_C",
           "label": "$Bed_Room_C",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "BED-RC",
+              "description": "Bed, Room C"
+            },
+            "zh-TW": {
+              "label": "C 室床",
+              "description": "C 室床"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Chair_Kitchen_A_1",
+        "path": "FURN/$Chair_Kitchen_A_1",
+        "extras": {
+          "key": "FURN/$Chair_Kitchen_A_1",
+          "label": "$Chair_Kitchen_A_1",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CHR-KA1",
+              "description": "Kitchen Chair, A 1"
+            },
+            "zh-TW": {
+              "label": "廚房椅 A1",
+              "description": "廚房椅 A1"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Chair_Kitchen_A_2",
+        "path": "FURN/$Chair_Kitchen_A_2",
+        "extras": {
+          "key": "FURN/$Chair_Kitchen_A_2",
+          "label": "$Chair_Kitchen_A_2",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CHR-KA2",
+              "description": "Kitchen Chair, A 2"
+            },
+            "zh-TW": {
+              "label": "廚房椅 A2",
+              "description": "廚房椅 A2"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Chair_Kitchen_B_1",
+        "path": "FURN/$Chair_Kitchen_B_1",
+        "extras": {
+          "key": "FURN/$Chair_Kitchen_B_1",
+          "label": "$Chair_Kitchen_B_1",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CHR-KB1",
+              "description": "Kitchen Chair, B 1"
+            },
+            "zh-TW": {
+              "label": "廚房椅 B1",
+              "description": "廚房椅 B1"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Chair_Kitchen_B_2",
+        "path": "FURN/$Chair_Kitchen_B_2",
+        "extras": {
+          "key": "FURN/$Chair_Kitchen_B_2",
+          "label": "$Chair_Kitchen_B_2",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CHR-KB2",
+              "description": "Kitchen Chair, B 2"
+            },
+            "zh-TW": {
+              "label": "廚房椅 B2",
+              "description": "廚房椅 B2"
+            }
+          }
         }
       },
       {
@@ -416,7 +977,17 @@
         "extras": {
           "key": "FURN/$Desk_Room_A",
           "label": "$Desk_Room_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DSK-RA",
+              "description": "Desk, Room A"
+            },
+            "zh-TW": {
+              "label": "A 室書桌",
+              "description": "A 室書桌"
+            }
+          }
         }
       },
       {
@@ -425,7 +996,17 @@
         "extras": {
           "key": "FURN/$Desk_Room_B",
           "label": "$Desk_Room_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DSK-RB",
+              "description": "Desk, Room B"
+            },
+            "zh-TW": {
+              "label": "B 室書桌",
+              "description": "B 室書桌"
+            }
+          }
         }
       },
       {
@@ -434,7 +1015,55 @@
         "extras": {
           "key": "FURN/$Hamm",
           "label": "$Hamm",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "HMCK",
+              "description": "Hammock"
+            },
+            "zh-TW": {
+              "label": "吊床",
+              "description": "吊床"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Rug_Bathroom_A",
+        "path": "FURN/$Rug_Bathroom_A",
+        "extras": {
+          "key": "FURN/$Rug_Bathroom_A",
+          "label": "$Rug_Bathroom_A",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "RUG-BA",
+              "description": "Rug, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴地毯",
+              "description": "A 衛浴地毯"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Rug_Living_Room",
+        "path": "FURN/$Rug_Living_Room",
+        "extras": {
+          "key": "FURN/$Rug_Living_Room",
+          "label": "$Rug_Living_Room",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "RUG-LR",
+              "description": "Rug, Living Room"
+            },
+            "zh-TW": {
+              "label": "客廳地毯",
+              "description": "客廳地毯"
+            }
+          }
         }
       },
       {
@@ -443,7 +1072,17 @@
         "extras": {
           "key": "FURN/$Sofa",
           "label": "$Sofa",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SF",
+              "description": "Sofa, Main"
+            },
+            "zh-TW": {
+              "label": "主要沙發",
+              "description": "主要沙發"
+            }
+          }
         }
       },
       {
@@ -452,7 +1091,17 @@
         "extras": {
           "key": "FURN/$Sofa_Room_A",
           "label": "$Sofa_Room_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SF-RA",
+              "description": "Sofa, Room A"
+            },
+            "zh-TW": {
+              "label": "A 室沙發",
+              "description": "A 室沙發"
+            }
+          }
         }
       },
       {
@@ -461,7 +1110,55 @@
         "extras": {
           "key": "FURN/$Sofa_Room_C",
           "label": "$Sofa_Room_C",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SF-RC",
+              "description": "Sofa, Room C"
+            },
+            "zh-TW": {
+              "label": "C 室沙發",
+              "description": "C 室沙發"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Table_Kitchen",
+        "path": "FURN/$Table_Kitchen",
+        "extras": {
+          "key": "FURN/$Table_Kitchen",
+          "label": "$Table_Kitchen",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TBL-K",
+              "description": "Table, Kitchen"
+            },
+            "zh-TW": {
+              "label": "廚房桌",
+              "description": "廚房桌"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Tapestry",
+        "path": "FURN/$Tapestry",
+        "extras": {
+          "key": "FURN/$Tapestry",
+          "label": "$Tapestry",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TPSTRY",
+              "description": "Tapestry"
+            },
+            "zh-TW": {
+              "label": "壁毯",
+              "description": "壁毯"
+            }
+          }
         }
       },
       {
@@ -470,10 +1167,566 @@
         "extras": {
           "key": "FURN/$TV_Bracket",
           "label": "$TV_Bracket",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TV-BR",
+              "description": "TV Wall Bracket"
+            },
+            "zh-TW": {
+              "label": "電視壁掛架",
+              "description": "電視壁掛架"
+            }
+          }
         }
       }
-    ]
+    ],
+    "extras": {
+      "key": "FURN",
+      "label": "FURN",
+      "i18n": {
+        "en": {
+          "label": "FURN",
+          "description": "Furniture"
+        },
+        "zh-TW": {
+          "label": "活動家具",
+          "description": "活動家具"
+        }
+      }
+    }
+  },
+  {
+    "name": "HARDWARE",
+    "children": [
+      {
+        "name": "$Bay_Window_A",
+        "path": "HARDWARE/$Bay_Window_A",
+        "extras": {
+          "key": "HARDWARE/$Bay_Window_A",
+          "label": "$Bay_Window_A",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "BAYW-A",
+              "description": "Bay Window, A"
+            },
+            "zh-TW": {
+              "label": "A 弧形窗",
+              "description": "A 弧形窗"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Bay_Window_B",
+        "path": "HARDWARE/$Bay_Window_B",
+        "extras": {
+          "key": "HARDWARE/$Bay_Window_B",
+          "label": "$Bay_Window_B",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "BAYW-B",
+              "description": "Bay Window, B"
+            },
+            "zh-TW": {
+              "label": "B 弧形窗",
+              "description": "B 弧形窗"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Bay_Window_C",
+        "path": "HARDWARE/$Bay_Window_C",
+        "extras": {
+          "key": "HARDWARE/$Bay_Window_C",
+          "label": "$Bay_Window_C",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "BAYW-C",
+              "description": "Bay Window, C"
+            },
+            "zh-TW": {
+              "label": "C 弧形窗",
+              "description": "C 弧形窗"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Canopy_Room_B",
+        "path": "HARDWARE/$Canopy_Room_B",
+        "extras": {
+          "key": "HARDWARE/$Canopy_Room_B",
+          "label": "$Canopy_Room_B",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CANO-RB",
+              "description": "Canopy, Room B"
+            },
+            "zh-TW": {
+              "label": "B 室遮雨棚",
+              "description": "B 室遮雨棚"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Canopy_Room_C",
+        "path": "HARDWARE/$Canopy_Room_C",
+        "extras": {
+          "key": "HARDWARE/$Canopy_Room_C",
+          "label": "$Canopy_Room_C",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CANO-RC",
+              "description": "Canopy, Room C"
+            },
+            "zh-TW": {
+              "label": "C 室遮雨棚",
+              "description": "C 室遮雨棚"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Door_Balcony",
+        "path": "HARDWARE/$Door_Balcony",
+        "extras": {
+          "key": "HARDWARE/$Door_Balcony",
+          "label": "$Door_Balcony",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "D-BL",
+              "description": "Door, Balcony"
+            },
+            "zh-TW": {
+              "label": "陽台門",
+              "description": "陽台門"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Door_Bathroom_A",
+        "path": "HARDWARE/$Door_Bathroom_A",
+        "extras": {
+          "key": "HARDWARE/$Door_Bathroom_A",
+          "label": "$Door_Bathroom_A",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "D-BA",
+              "description": "Door, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴門",
+              "description": "A 衛浴門"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Door_Bathroom_B",
+        "path": "HARDWARE/$Door_Bathroom_B",
+        "extras": {
+          "key": "HARDWARE/$Door_Bathroom_B",
+          "label": "$Door_Bathroom_B",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "D-BB",
+              "description": "Door, Bathroom B"
+            },
+            "zh-TW": {
+              "label": "B 衛浴門",
+              "description": "B 衛浴門"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Door_MainEntrance",
+        "path": "HARDWARE/$Door_MainEntrance",
+        "extras": {
+          "key": "HARDWARE/$Door_MainEntrance",
+          "label": "$Door_MainEntrance",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "D-ME",
+              "description": "Door, Main Entrance"
+            },
+            "zh-TW": {
+              "label": "大門/玄關門",
+              "description": "大門/玄關門"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Door_Room_A",
+        "path": "HARDWARE/$Door_Room_A",
+        "extras": {
+          "key": "HARDWARE/$Door_Room_A",
+          "label": "$Door_Room_A",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "D-RA",
+              "description": "Door, Room A"
+            },
+            "zh-TW": {
+              "label": "A 室門",
+              "description": "A 室門"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Door_Room_B",
+        "path": "HARDWARE/$Door_Room_B",
+        "extras": {
+          "key": "HARDWARE/$Door_Room_B",
+          "label": "$Door_Room_B",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "D-RB",
+              "description": "Door, Room B"
+            },
+            "zh-TW": {
+              "label": "B 室門",
+              "description": "B 室門"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Door_Room_C",
+        "path": "HARDWARE/$Door_Room_C",
+        "extras": {
+          "key": "HARDWARE/$Door_Room_C",
+          "label": "$Door_Room_C",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "D-RC",
+              "description": "Door, Room C"
+            },
+            "zh-TW": {
+              "label": "C 室門",
+              "description": "C 室門"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Glass_Balcony",
+        "path": "HARDWARE/$Glass_Balcony",
+        "extras": {
+          "key": "HARDWARE/$Glass_Balcony",
+          "label": "$Glass_Balcony",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "G-BL",
+              "description": "Glass, Balcony/Railing"
+            },
+            "zh-TW": {
+              "label": "陽台玻璃/欄杆",
+              "description": "陽台玻璃/欄杆"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Grille_Balcony",
+        "path": "HARDWARE/$Grille_Balcony",
+        "extras": {
+          "key": "HARDWARE/$Grille_Balcony",
+          "label": "$Grille_Balcony",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "GRL-BL",
+              "description": "Window Grille, Balcony"
+            },
+            "zh-TW": {
+              "label": "陽台窗格/鐵窗",
+              "description": "陽台窗格/鐵窗"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Grille_Living_Room",
+        "path": "HARDWARE/$Grille_Living_Room",
+        "extras": {
+          "key": "HARDWARE/$Grille_Living_Room",
+          "label": "$Grille_Living_Room",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "GRL-LR",
+              "description": "Window Grille, Living Room"
+            },
+            "zh-TW": {
+              "label": "客廳窗格/鐵窗",
+              "description": "客廳窗格/鐵窗"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Grille_Room_A",
+        "path": "HARDWARE/$Grille_Room_A",
+        "extras": {
+          "key": "HARDWARE/$Grille_Room_A",
+          "label": "$Grille_Room_A",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "GRL-RA",
+              "description": "Window Grille, Room A"
+            },
+            "zh-TW": {
+              "label": "A 室窗格/鐵窗",
+              "description": "A 室窗格/鐵窗"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Grille_Room_B",
+        "path": "HARDWARE/$Grille_Room_B",
+        "extras": {
+          "key": "HARDWARE/$Grille_Room_B",
+          "label": "$Grille_Room_B",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "GRL-RB",
+              "description": "Window Grille, Room B"
+            },
+            "zh-TW": {
+              "label": "B 室窗格/鐵窗",
+              "description": "B 室窗格/鐵窗"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Grille_Room_C",
+        "path": "HARDWARE/$Grille_Room_C",
+        "extras": {
+          "key": "HARDWARE/$Grille_Room_C",
+          "label": "$Grille_Room_C",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "GRL-RC",
+              "description": "Window Grille, Room C"
+            },
+            "zh-TW": {
+              "label": "C 室窗格/鐵窗",
+              "description": "C 室窗格/鐵窗"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Hall_Outer",
+        "path": "HARDWARE/$Hall_Outer",
+        "extras": {
+          "key": "HARDWARE/$Hall_Outer",
+          "label": "$Hall_Outer",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "HALL-OU",
+              "description": "Hallway, Outer/Exterior"
+            },
+            "zh-TW": {
+              "label": "戶外/公共走廊",
+              "description": "戶外/公共走廊"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Tile_Balcony",
+        "path": "HARDWARE/$Tile_Balcony",
+        "extras": {
+          "key": "HARDWARE/$Tile_Balcony",
+          "label": "$Tile_Balcony",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TILE-BL",
+              "description": "Tile, Balcony"
+            },
+            "zh-TW": {
+              "label": "陽台磁磚",
+              "description": "陽台磁磚"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Tile_Bathroom_Flower",
+        "path": "HARDWARE/$Tile_Bathroom_Flower",
+        "extras": {
+          "key": "HARDWARE/$Tile_Bathroom_Flower",
+          "label": "$Tile_Bathroom_Flower",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TILE-BF",
+              "description": "Tile, Bathroom (Flower Pattern)"
+            },
+            "zh-TW": {
+              "label": "浴室花磚",
+              "description": "浴室花磚"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_1-1",
+        "path": "HARDWARE/$Tile_Outer_Wall_1-1",
+        "extras": {
+          "key": "HARDWARE/$Tile_Outer_Wall_1-1",
+          "label": "$Tile_Outer_Wall_1-1",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TILE-OW 1-1",
+              "description": "Tile, Outer Wall 1-1"
+            },
+            "zh-TW": {
+              "label": "外牆磁磚 1-1",
+              "description": "外牆磁磚 1-1"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_1-2",
+        "path": "HARDWARE/$Tile_Outer_Wall_1-2",
+        "extras": {
+          "key": "HARDWARE/$Tile_Outer_Wall_1-2",
+          "label": "$Tile_Outer_Wall_1-2",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TILE-OW 1-2",
+              "description": "Tile, Outer Wall 1-2"
+            },
+            "zh-TW": {
+              "label": "外牆磁磚 1-2",
+              "description": "外牆磁磚 1-2"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_2",
+        "path": "HARDWARE/$Tile_Outer_Wall_2",
+        "extras": {
+          "key": "HARDWARE/$Tile_Outer_Wall_2",
+          "label": "$Tile_Outer_Wall_2",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TILE-OW 2",
+              "description": "Tile, Outer Wall 2"
+            },
+            "zh-TW": {
+              "label": "外牆磁磚 2",
+              "description": "外牆磁磚 2"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Tile_Outer_Wall_3",
+        "path": "HARDWARE/$Tile_Outer_Wall_3",
+        "extras": {
+          "key": "HARDWARE/$Tile_Outer_Wall_3",
+          "label": "$Tile_Outer_Wall_3",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TILE-OW 3",
+              "description": "Tile, Outer Wall 3"
+            },
+            "zh-TW": {
+              "label": "外牆磁磚 3",
+              "description": "外牆磁磚 3"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Bathroom_A",
+        "path": "HARDWARE/$Wall_Bathroom_A",
+        "extras": {
+          "key": "HARDWARE/$Wall_Bathroom_A",
+          "label": "$Wall_Bathroom_A",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-BA",
+              "description": "Wall, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴牆面",
+              "description": "A 衛浴牆面"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Bathroom_B",
+        "path": "HARDWARE/$Wall_Bathroom_B",
+        "extras": {
+          "key": "HARDWARE/$Wall_Bathroom_B",
+          "label": "$Wall_Bathroom_B",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-BB",
+              "description": "Wall, Bathroom B"
+            },
+            "zh-TW": {
+              "label": "B 衛浴牆面",
+              "description": "B 衛浴牆面"
+            }
+          }
+        }
+      }
+    ],
+    "extras": {
+      "key": "HARDWARE",
+      "label": "HARDWARE",
+      "i18n": {
+        "en": {
+          "label": "HARDWARE",
+          "description": "Doors, Windows & Trim"
+        },
+        "zh-TW": {
+          "label": "門窗五金",
+          "description": "門窗五金"
+        }
+      }
+    }
   },
   {
     "name": "LIGHT",
@@ -484,10 +1737,34 @@
         "extras": {
           "key": "LIGHT/$Chandelier",
           "label": "$Chandelier",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CHDL",
+              "description": "Chandelier"
+            },
+            "zh-TW": {
+              "label": "吊燈",
+              "description": "吊燈"
+            }
+          }
         }
       }
-    ]
+    ],
+    "extras": {
+      "key": "LIGHT",
+      "label": "LIGHT",
+      "i18n": {
+        "en": {
+          "label": "LFX",
+          "description": "Lighting Fixtures"
+        },
+        "zh-TW": {
+          "label": "燈具",
+          "description": "燈具"
+        }
+      }
+    }
   },
   {
     "name": "MEP",
@@ -498,7 +1775,17 @@
         "extras": {
           "key": "MEP/$Drainage_System_Air_Conditioner",
           "label": "$Drainage_System_Air_Conditioner",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DRN-AC",
+              "description": "Drainage System, Air Conditioner"
+            },
+            "zh-TW": {
+              "label": "空調排水系統",
+              "description": "空調排水系統"
+            }
+          }
         }
       },
       {
@@ -507,7 +1794,17 @@
         "extras": {
           "key": "MEP/$Drainage_System_Bathroom_A",
           "label": "$Drainage_System_Bathroom_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DRN-BA",
+              "description": "Drainage System, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴排水系統",
+              "description": "A 衛浴排水系統"
+            }
+          }
         }
       },
       {
@@ -516,7 +1813,17 @@
         "extras": {
           "key": "MEP/$Drainage_System_Bathrooms",
           "label": "$Drainage_System_Bathrooms",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DRN-B",
+              "description": "Drainage System, Bathrooms (General)"
+            },
+            "zh-TW": {
+              "label": "衛浴排水系統 (總)",
+              "description": "衛浴排水系統 (總)"
+            }
+          }
         }
       },
       {
@@ -525,7 +1832,17 @@
         "extras": {
           "key": "MEP/$Drainage_System_Kitchen_A",
           "label": "$Drainage_System_Kitchen_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DRN-KA",
+              "description": "Drainage System, Kitchen A"
+            },
+            "zh-TW": {
+              "label": "A 廚房排水系統",
+              "description": "A 廚房排水系統"
+            }
+          }
         }
       },
       {
@@ -534,7 +1851,17 @@
         "extras": {
           "key": "MEP/$Drainage_System_Kitchen_B",
           "label": "$Drainage_System_Kitchen_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DRN-KB",
+              "description": "Drainage System, Kitchen B"
+            },
+            "zh-TW": {
+              "label": "B 廚房排水系統",
+              "description": "B 廚房排水系統"
+            }
+          }
         }
       },
       {
@@ -543,7 +1870,17 @@
         "extras": {
           "key": "MEP/$Electric_Box",
           "label": "$Electric_Box",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "EB",
+              "description": "Electric Box/Junction Box"
+            },
+            "zh-TW": {
+              "label": "電箱/接線盒",
+              "description": "電箱/接線盒"
+            }
+          }
         }
       },
       {
@@ -552,7 +1889,17 @@
         "extras": {
           "key": "MEP/$Electric_Door_Bell",
           "label": "$Electric_Door_Bell",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DB",
+              "description": "Electric Door Bell"
+            },
+            "zh-TW": {
+              "label": "電子門鈴",
+              "description": "電子門鈴"
+            }
+          }
         }
       },
       {
@@ -561,7 +1908,17 @@
         "extras": {
           "key": "MEP/$Electric_Power_Panels",
           "label": "$Electric_Power_Panels",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "EPP",
+              "description": "Electric Power Panels/Distribution Board"
+            },
+            "zh-TW": {
+              "label": "配電盤/電源箱",
+              "description": "配電盤/電源箱"
+            }
+          }
         }
       },
       {
@@ -570,7 +1927,17 @@
         "extras": {
           "key": "MEP/$Electric_Wire_In-Wall",
           "label": "$Electric_Wire_In-Wall",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "EW-IW",
+              "description": "Electric Wire, In-Wall"
+            },
+            "zh-TW": {
+              "label": "入牆電線",
+              "description": "入牆電線"
+            }
+          }
         }
       },
       {
@@ -579,7 +1946,17 @@
         "extras": {
           "key": "MEP/$Gas_System_Meter",
           "label": "$Gas_System_Meter",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "GAS-M",
+              "description": "Gas System, Meter"
+            },
+            "zh-TW": {
+              "label": "瓦斯系統 - 計量器",
+              "description": "瓦斯系統 - 計量器"
+            }
+          }
         }
       },
       {
@@ -588,7 +1965,17 @@
         "extras": {
           "key": "MEP/$Gas_System_Pipes",
           "label": "$Gas_System_Pipes",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "GAS-P",
+              "description": "Gas System, Pipes"
+            },
+            "zh-TW": {
+              "label": "瓦斯系統 - 管線",
+              "description": "瓦斯系統 - 管線"
+            }
+          }
         }
       },
       {
@@ -597,7 +1984,17 @@
         "extras": {
           "key": "MEP/$Water_Heater",
           "label": "$Water_Heater",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "WH",
+              "description": "Water Heater"
+            },
+            "zh-TW": {
+              "label": "熱水器",
+              "description": "熱水器"
+            }
+          }
         }
       },
       {
@@ -606,7 +2003,17 @@
         "extras": {
           "key": "MEP/$Water_Tube_Cold",
           "label": "$Water_Tube_Cold",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "WT-C",
+              "description": "Water Tube, Cold"
+            },
+            "zh-TW": {
+              "label": "冷水管",
+              "description": "冷水管"
+            }
+          }
         }
       },
       {
@@ -615,10 +2022,34 @@
         "extras": {
           "key": "MEP/$Water_Tube_Hot",
           "label": "$Water_Tube_Hot",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "WT-H",
+              "description": "Water_Tube, Hot"
+            },
+            "zh-TW": {
+              "label": "熱水管",
+              "description": "熱水管"
+            }
+          }
         }
       }
-    ]
+    ],
+    "extras": {
+      "key": "MEP",
+      "label": "MEP",
+      "i18n": {
+        "en": {
+          "label": "MEP",
+          "description": "Mechanical, Electrical, Plumbing"
+        },
+        "zh-TW": {
+          "label": "機電與管線",
+          "description": "機電與管線"
+        }
+      }
+    }
   },
   {
     "name": "SAN",
@@ -629,7 +2060,17 @@
         "extras": {
           "key": "SAN/$Shower",
           "label": "$Shower",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SHW",
+              "description": "Shower Head/System"
+            },
+            "zh-TW": {
+              "label": "蓮蓬頭/淋浴系統",
+              "description": "蓮蓬頭/淋浴系統"
+            }
+          }
         }
       },
       {
@@ -638,7 +2079,17 @@
         "extras": {
           "key": "SAN/$Shower_Stalls",
           "label": "$Shower_Stalls",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "SHW-ST",
+              "description": "Shower Stalls/Enclosure"
+            },
+            "zh-TW": {
+              "label": "淋浴間/隔間",
+              "description": "淋浴間/隔間"
+            }
+          }
         }
       },
       {
@@ -647,7 +2098,17 @@
         "extras": {
           "key": "SAN/$Toilet_Bathroom_A",
           "label": "$Toilet_Bathroom_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "T-BA",
+              "description": "Toilet, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴馬桶",
+              "description": "A 衛浴馬桶"
+            }
+          }
         }
       },
       {
@@ -656,7 +2117,17 @@
         "extras": {
           "key": "SAN/$Toilet_Bathroom_B",
           "label": "$Toilet_Bathroom_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "T-BB",
+              "description": "Toilet, Bathroom B"
+            },
+            "zh-TW": {
+              "label": "B 衛浴馬桶",
+              "description": "B 衛浴馬桶"
+            }
+          }
         }
       },
       {
@@ -665,7 +2136,17 @@
         "extras": {
           "key": "SAN/$Toilet_Spray_Bathroom_A",
           "label": "$Toilet_Spray_Bathroom_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TS-BA",
+              "description": "Bidet/Spray, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴沖洗器",
+              "description": "A 衛浴沖洗器"
+            }
+          }
         }
       },
       {
@@ -674,7 +2155,17 @@
         "extras": {
           "key": "SAN/$Toilet_Spray_Bathroom_B",
           "label": "$Toilet_Spray_Bathroom_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TS-BB",
+              "description": "Bidet/Spray, Bathroom B"
+            },
+            "zh-TW": {
+              "label": "B 衛浴沖洗器",
+              "description": "B 衛浴沖洗器"
+            }
+          }
         }
       },
       {
@@ -683,7 +2174,17 @@
         "extras": {
           "key": "SAN/$Washbasin_Bathroom_A",
           "label": "$Washbasin_Bathroom_A",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "WB-BA",
+              "description": "Washbasin/Sink, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴洗手台",
+              "description": "A 衛浴洗手台"
+            }
+          }
         }
       },
       {
@@ -692,278 +2193,34 @@
         "extras": {
           "key": "SAN/$Washbasin_Bathroom_B",
           "label": "$Washbasin_Bathroom_B",
-          "isVizObj": true
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "WB-BB",
+              "description": "Washbasin/Sink, Bathroom B"
+            },
+            "zh-TW": {
+              "label": "B 衛浴洗手台",
+              "description": "B 衛浴洗手台"
+            }
+          }
         }
       }
-    ]
-  },
-  {
-    "name": "STRUCT",
-    "children": [
-      {
-        "name": "$Bay_Window_A",
-        "path": "STRUCT/$Bay_Window_A",
-        "extras": {
-          "key": "STRUCT/$Bay_Window_A",
-          "label": "$Bay_Window_A",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Bay_Window_B",
-        "path": "STRUCT/$Bay_Window_B",
-        "extras": {
-          "key": "STRUCT/$Bay_Window_B",
-          "label": "$Bay_Window_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Bay_Window_C",
-        "path": "STRUCT/$Bay_Window_C",
-        "extras": {
-          "key": "STRUCT/$Bay_Window_C",
-          "label": "$Bay_Window_C",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Canopy_Room_B",
-        "path": "STRUCT/$Canopy_Room_B",
-        "extras": {
-          "key": "STRUCT/$Canopy_Room_B",
-          "label": "$Canopy_Room_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Canopy_Room_C",
-        "path": "STRUCT/$Canopy_Room_C",
-        "extras": {
-          "key": "STRUCT/$Canopy_Room_C",
-          "label": "$Canopy_Room_C",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Door_Balcony",
-        "path": "STRUCT/$Door_Balcony",
-        "extras": {
-          "key": "STRUCT/$Door_Balcony",
-          "label": "$Door_Balcony",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Door_Bathroom_A",
-        "path": "STRUCT/$Door_Bathroom_A",
-        "extras": {
-          "key": "STRUCT/$Door_Bathroom_A",
-          "label": "$Door_Bathroom_A",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Door_Bathroom_B",
-        "path": "STRUCT/$Door_Bathroom_B",
-        "extras": {
-          "key": "STRUCT/$Door_Bathroom_B",
-          "label": "$Door_Bathroom_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Door_MainEntrance",
-        "path": "STRUCT/$Door_MainEntrance",
-        "extras": {
-          "key": "STRUCT/$Door_MainEntrance",
-          "label": "$Door_MainEntrance",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Door_Room_A",
-        "path": "STRUCT/$Door_Room_A",
-        "extras": {
-          "key": "STRUCT/$Door_Room_A",
-          "label": "$Door_Room_A",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Door_Room_B",
-        "path": "STRUCT/$Door_Room_B",
-        "extras": {
-          "key": "STRUCT/$Door_Room_B",
-          "label": "$Door_Room_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Door_Room_C",
-        "path": "STRUCT/$Door_Room_C",
-        "extras": {
-          "key": "STRUCT/$Door_Room_C",
-          "label": "$Door_Room_C",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Glass_Balcony",
-        "path": "STRUCT/$Glass_Balcony",
-        "extras": {
-          "key": "STRUCT/$Glass_Balcony",
-          "label": "$Glass_Balcony",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Grille_Balcony",
-        "path": "STRUCT/$Grille_Balcony",
-        "extras": {
-          "key": "STRUCT/$Grille_Balcony",
-          "label": "$Grille_Balcony",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Grille_Living_Room",
-        "path": "STRUCT/$Grille_Living_Room",
-        "extras": {
-          "key": "STRUCT/$Grille_Living_Room",
-          "label": "$Grille_Living_Room",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Grille_Room_A",
-        "path": "STRUCT/$Grille_Room_A",
-        "extras": {
-          "key": "STRUCT/$Grille_Room_A",
-          "label": "$Grille_Room_A",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Grille_Room_B",
-        "path": "STRUCT/$Grille_Room_B",
-        "extras": {
-          "key": "STRUCT/$Grille_Room_B",
-          "label": "$Grille_Room_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Grille_Room_C",
-        "path": "STRUCT/$Grille_Room_C",
-        "extras": {
-          "key": "STRUCT/$Grille_Room_C",
-          "label": "$Grille_Room_C",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Hall_Outer",
-        "path": "STRUCT/$Hall_Outer",
-        "extras": {
-          "key": "STRUCT/$Hall_Outer",
-          "label": "$Hall_Outer",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Tile_Balcony",
-        "path": "STRUCT/$Tile_Balcony",
-        "extras": {
-          "key": "STRUCT/$Tile_Balcony",
-          "label": "$Tile_Balcony",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Tile_Outer_Wall_1-1",
-        "path": "STRUCT/$Tile_Outer_Wall_1-1",
-        "extras": {
-          "key": "STRUCT/$Tile_Outer_Wall_1-1",
-          "label": "$Tile_Outer_Wall_1-1",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Tile_Outer_Wall_1-2",
-        "path": "STRUCT/$Tile_Outer_Wall_1-2",
-        "extras": {
-          "key": "STRUCT/$Tile_Outer_Wall_1-2",
-          "label": "$Tile_Outer_Wall_1-2",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Tile_Outer_Wall_2",
-        "path": "STRUCT/$Tile_Outer_Wall_2",
-        "extras": {
-          "key": "STRUCT/$Tile_Outer_Wall_2",
-          "label": "$Tile_Outer_Wall_2",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Tile_Outer_Wall_3",
-        "path": "STRUCT/$Tile_Outer_Wall_3",
-        "extras": {
-          "key": "STRUCT/$Tile_Outer_Wall_3",
-          "label": "$Tile_Outer_Wall_3",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Wall_Bathroom_A",
-        "path": "STRUCT/$Wall_Bathroom_A",
-        "extras": {
-          "key": "STRUCT/$Wall_Bathroom_A",
-          "label": "$Wall_Bathroom_A",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Wall_Bathroom_B",
-        "path": "STRUCT/$Wall_Bathroom_B",
-        "extras": {
-          "key": "STRUCT/$Wall_Bathroom_B",
-          "label": "$Wall_Bathroom_B",
-          "isVizObj": true
-        }
-      },
-      {
-        "name": "$Wall_Concrete_Main",
-        "path": "STRUCT/$Wall_Concrete_Main",
-        "extras": {
-          "key": "STRUCT/$Wall_Concrete_Main",
-          "label": "$Wall_Concrete_Main",
-          "isVizObj": true,
-          "isSolidWall": true
-        }
-      },
-      {
-        "name": "$Wall_Wood_Partition",
-        "path": "STRUCT/$Wall_Wood_Partition",
-        "extras": {
-          "key": "STRUCT/$Wall_Wood_Partition",
-          "label": "$Wall_Wood_Partition",
-          "isVizObj": true,
-          "isSolidWall": true
-        }
-      },
-      {
-        "name": "$Wall_Wood_Partition_Wood",
-        "path": "STRUCT/$Wall_Wood_Partition_Wood",
-        "extras": {
-          "key": "STRUCT/$Wall_Wood_Partition_Wood",
-          "label": "$Wall_Wood_Partition_Wood",
-          "isVizObj": true
+    ],
+    "extras": {
+      "key": "SAN",
+      "label": "SAN",
+      "i18n": {
+        "en": {
+          "label": "SAN",
+          "description": "Sanitary Ware"
+        },
+        "zh-TW": {
+          "label": "衛浴設備",
+          "description": "衛浴設備"
         }
       }
-    ]
+    }
   },
   {
     "name": "TEST",
@@ -977,11 +2234,524 @@
             "extras": {
               "key": "TEST/FOLDER/$Origin",
               "label": "$Origin",
-              "isVizObj": true
+              "isVizObj": true,
+              "i18n": {
+                "en": {
+                  "label": "Origin",
+                  "description": "Origin Point"
+                },
+                "zh-TW": {
+                  "label": "原點",
+                  "description": "原點"
+                }
+              }
             }
           }
-        ]
+        ],
+        "extras": {
+          "key": "TEST/FOLDER",
+          "label": "FOLDER",
+          "i18n": {
+            "en": {
+              "label": "FOLDER",
+              "description": "Folder"
+            },
+            "zh-TW": {
+              "label": "資料夾",
+              "description": "資料夾"
+            }
+          }
+        }
       }
-    ]
+    ],
+    "extras": {
+      "key": "TEST",
+      "label": "TEST",
+      "i18n": {
+        "en": {
+          "label": "TEST",
+          "description": "Test"
+        },
+        "zh-TW": {
+          "label": "測試",
+          "description": "測試"
+        }
+      }
+    }
+  },
+  {
+    "name": "WALL",
+    "children": [
+      {
+        "name": "$Beam_Concrete",
+        "path": "WALL/$Beam_Concrete",
+        "extras": {
+          "key": "WALL/$Beam_Concrete",
+          "label": "$Beam_Concrete",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "BEAM-CON",
+              "description": "Concrete Beam"
+            },
+            "zh-TW": {
+              "label": "混凝土樑",
+              "description": "混凝土樑"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Concrete_1",
+        "path": "WALL/$Wall_Concrete_1",
+        "extras": {
+          "key": "WALL/$Wall_Concrete_1",
+          "label": "$Wall_Concrete_1",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-CON-1",
+              "description": "Concrete Wall 1"
+            },
+            "zh-TW": {
+              "label": "混凝土牆 1",
+              "description": "混凝土牆 1"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Concrete_2",
+        "path": "WALL/$Wall_Concrete_2",
+        "extras": {
+          "key": "WALL/$Wall_Concrete_2",
+          "label": "$Wall_Concrete_2",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-CON-2",
+              "description": "Concrete Wall 2"
+            },
+            "zh-TW": {
+              "label": "混凝土牆 2",
+              "description": "混凝土牆 2"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Concrete_3",
+        "path": "WALL/$Wall_Concrete_3",
+        "extras": {
+          "key": "WALL/$Wall_Concrete_3",
+          "label": "$Wall_Concrete_3",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-CON-3",
+              "description": "Concrete Wall 3"
+            },
+            "zh-TW": {
+              "label": "混凝土牆 3",
+              "description": "混凝土牆 3"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Concrete_4",
+        "path": "WALL/$Wall_Concrete_4",
+        "extras": {
+          "key": "WALL/$Wall_Concrete_4",
+          "label": "$Wall_Concrete_4",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-CON-4",
+              "description": "Concrete Wall 4"
+            },
+            "zh-TW": {
+              "label": "混凝土牆 4",
+              "description": "混凝土牆 4"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Concrete_5",
+        "path": "WALL/$Wall_Concrete_5",
+        "extras": {
+          "key": "WALL/$Wall_Concrete_5",
+          "label": "$Wall_Concrete_5",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-CON-5",
+              "description": "Concrete Wall 5"
+            },
+            "zh-TW": {
+              "label": "混凝土牆 5",
+              "description": "混凝土牆 5"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Concrete_6",
+        "path": "WALL/$Wall_Concrete_6",
+        "extras": {
+          "key": "WALL/$Wall_Concrete_6",
+          "label": "$Wall_Concrete_6",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-CON-6",
+              "description": "Concrete Wall 6"
+            },
+            "zh-TW": {
+              "label": "混凝土牆 6",
+              "description": "混凝土牆 6"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Concrete_7",
+        "path": "WALL/$Wall_Concrete_7",
+        "extras": {
+          "key": "WALL/$Wall_Concrete_7",
+          "label": "$Wall_Concrete_7",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-CON-7",
+              "description": "Concrete Wall 7"
+            },
+            "zh-TW": {
+              "label": "混凝土牆 7",
+              "description": "混凝土牆 7"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Concrete_8",
+        "path": "WALL/$Wall_Concrete_8",
+        "extras": {
+          "key": "WALL/$Wall_Concrete_8",
+          "label": "$Wall_Concrete_8",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-CON-8",
+              "description": "Concrete Wall 8"
+            },
+            "zh-TW": {
+              "label": "混凝土牆 8",
+              "description": "混凝土牆 8"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Wall_Concrete_9",
+        "path": "WALL/$Wall_Concrete_9",
+        "extras": {
+          "key": "WALL/$Wall_Concrete_9",
+          "label": "$Wall_Concrete_9",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "W-CON-9",
+              "description": "Concrete Wall 9"
+            },
+            "zh-TW": {
+              "label": "混凝土牆 9",
+              "description": "混凝土牆 9"
+            }
+          }
+        }
+      }
+    ],
+    "extras": {
+      "key": "WALL",
+      "label": "WALL",
+      "i18n": {
+        "en": {
+          "label": "STRU-W",
+          "description": "Structural Walls"
+        },
+        "zh-TW": {
+          "label": "結構牆體",
+          "description": "結構牆體"
+        }
+      }
+    }
+  },
+  {
+    "name": "WOODWALL",
+    "children": [
+      {
+        "name": "$Cabinet_Wood_Room_B",
+        "path": "WOODWALL/$Cabinet_Wood_Room_B",
+        "extras": {
+          "key": "WOODWALL/$Cabinet_Wood_Room_B",
+          "label": "$Cabinet_Wood_Room_B",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CAB-WD-RB",
+              "description": "Wood Cabinet, Room B"
+            },
+            "zh-TW": {
+              "label": "B 室木作櫃",
+              "description": "B 室木作櫃"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Closure_Panel__Room_B",
+        "path": "WOODWALL/$Closure_Panel__Room_B",
+        "extras": {
+          "key": "WOODWALL/$Closure_Panel__Room_B",
+          "label": "$Closure_Panel__Room_B",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CLSR-RB",
+              "description": "Closure Panel, Room B"
+            },
+            "zh-TW": {
+              "label": "B 室封板",
+              "description": "B 室封板"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Closure_Panel__Room_C",
+        "path": "WOODWALL/$Closure_Panel__Room_C",
+        "extras": {
+          "key": "WOODWALL/$Closure_Panel__Room_C",
+          "label": "$Closure_Panel__Room_C",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CLSR-RC",
+              "description": "Closure Panel, Room C"
+            },
+            "zh-TW": {
+              "label": "C 室封板",
+              "description": "C 室封板"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Closure_Panel_Bathroom_A",
+        "path": "WOODWALL/$Closure_Panel_Bathroom_A",
+        "extras": {
+          "key": "WOODWALL/$Closure_Panel_Bathroom_A",
+          "label": "$Closure_Panel_Bathroom_A",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "CLSR-BA",
+              "description": "Closure Panel, Bathroom A"
+            },
+            "zh-TW": {
+              "label": "A 衛浴封板",
+              "description": "A 衛浴封板"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Deco_Wall_Room_B_1",
+        "path": "WOODWALL/$Deco_Wall_Room_B_1",
+        "extras": {
+          "key": "WOODWALL/$Deco_Wall_Room_B_1",
+          "label": "$Deco_Wall_Room_B_1",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DECO-RB1",
+              "description": "Decorative Wall, Room B 1"
+            },
+            "zh-TW": {
+              "label": "B 室裝飾牆 1",
+              "description": "B 室裝飾牆 1"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Deco_Wall_Room_B_2",
+        "path": "WOODWALL/$Deco_Wall_Room_B_2",
+        "extras": {
+          "key": "WOODWALL/$Deco_Wall_Room_B_2",
+          "label": "$Deco_Wall_Room_B_2",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DECO-RB2",
+              "description": "Decorative Wall, Room B 2"
+            },
+            "zh-TW": {
+              "label": "B 室裝飾牆 2",
+              "description": "B 室裝飾牆 2"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Deco_Wall_Room_B_3",
+        "path": "WOODWALL/$Deco_Wall_Room_B_3",
+        "extras": {
+          "key": "WOODWALL/$Deco_Wall_Room_B_3",
+          "label": "$Deco_Wall_Room_B_3",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DECO-RB3",
+              "description": "Decorative Wall, Room B 3"
+            },
+            "zh-TW": {
+              "label": "B 室裝飾牆 3",
+              "description": "B 室裝飾牆 3"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Deco_Wall_Room_C_1",
+        "path": "WOODWALL/$Deco_Wall_Room_C_1",
+        "extras": {
+          "key": "WOODWALL/$Deco_Wall_Room_C_1",
+          "label": "$Deco_Wall_Room_C_1",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DECO-RC1",
+              "description": "Decorative Wall, Room C 1"
+            },
+            "zh-TW": {
+              "label": "C 室裝飾牆 1",
+              "description": "C 室裝飾牆 1"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Door_Frame_Wood_Room_C",
+        "path": "WOODWALL/$Door_Frame_Wood_Room_C",
+        "extras": {
+          "key": "WOODWALL/$Door_Frame_Wood_Room_C",
+          "label": "$Door_Frame_Wood_Room_C",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "DFRM-RC",
+              "description": "Wood Door Frame, Room C"
+            },
+            "zh-TW": {
+              "label": "C 室木門框",
+              "description": "C 室木門框"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Glass_Divider_Room_A",
+        "path": "WOODWALL/$Glass_Divider_Room_A",
+        "extras": {
+          "key": "WOODWALL/$Glass_Divider_Room_A",
+          "label": "$Glass_Divider_Room_A",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "GDIV-RA",
+              "description": "Glass Divider, Room A"
+            },
+            "zh-TW": {
+              "label": "A 室玻璃隔間",
+              "description": "A 室玻璃隔間"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Headboard_Wood_Room_B",
+        "path": "WOODWALL/$Headboard_Wood_Room_B",
+        "extras": {
+          "key": "WOODWALL/$Headboard_Wood_Room_B",
+          "label": "$Headboard_Wood_Room_B",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "HDBD-RB",
+              "description": "Wood Headboard, Room B"
+            },
+            "zh-TW": {
+              "label": "B 室木床頭板",
+              "description": "B 室木床頭板"
+            }
+          }
+        }
+      },
+      {
+        "name": "$Partition_Wall_Room_A",
+        "path": "WOODWALL/$Partition_Wall_Room_A",
+        "extras": {
+          "key": "WOODWALL/$Partition_Wall_Room_A",
+          "label": "$Partition_Wall_Room_A",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "PART-RA",
+              "description": "Partition Wall, Room A"
+            },
+            "zh-TW": {
+              "label": "A 室隔間牆",
+              "description": "A 室隔間牆"
+            }
+          }
+        }
+      },
+      {
+        "name": "$TV_Wall",
+        "path": "WOODWALL/$TV_Wall",
+        "extras": {
+          "key": "WOODWALL/$TV_Wall",
+          "label": "$TV_Wall",
+          "isVizObj": true,
+          "i18n": {
+            "en": {
+              "label": "TV-WALL",
+              "description": "TV Feature Wall"
+            },
+            "zh-TW": {
+              "label": "電視牆",
+              "description": "電視牆"
+            }
+          }
+        }
+      }
+    ],
+    "extras": {
+      "key": "WOODWALL",
+      "label": "WOODWALL",
+      "i18n": {
+        "en": {
+          "label": "WOODW",
+          "description": "Wood Partition Walls"
+        },
+        "zh-TW": {
+          "label": "木作隔間",
+          "description": "木作隔間"
+        }
+      }
+    }
   }
 ]
